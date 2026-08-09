@@ -6,8 +6,8 @@ Thanks for helping improve binarysniffer's detection coverage.
 
 Signatures are authored and reviewed in the main
 [binarysniffer](https://github.com/SemClone/binarysniffer) repository. This
-repository holds the **published, signed output** — the bundles attached to
-releases — so it is not the place to edit signatures directly.
+repository holds the published, signed output (the bundles attached to
+releases), so it is not the place to edit signatures directly.
 
 ## Proposing a new or improved signature
 
