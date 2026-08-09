@@ -1,0 +1,3643 @@
+{
+  "categories": [
+    "anomaly",
+    "codec",
+    "compression",
+    "crash-reporting",
+    "data-processing",
+    "database",
+    "enterprise-library",
+    "error-tracking",
+    "framework",
+    "graphics",
+    "imported",
+    "internationalization",
+    "library",
+    "machine-learning",
+    "media-processing",
+    "mobile-sdk",
+    "multimedia",
+    "networking",
+    "security",
+    "system",
+    "system-library",
+    "web-engine",
+    "xml"
+  ],
+  "files": {
+    "aac.json": {
+      "sha256": "2803f68a96c8226f832bdb4723da2a7065f71de5a6df7ffc33ea261557bb2606",
+      "size": 1339
+    },
+    "alsa.json": {
+      "sha256": "42988919de7010f4a6d81109ca8f49f57578eb8c605153459a0ff77c71bc2970",
+      "size": 6073
+    },
+    "av1.json": {
+      "sha256": "278cfbcc76cac6939d0fb97269d3ef1f5a5c93ebb5618596aa214e915d430a9c",
+      "size": 1200
+    },
+    "bsa-aelve_fmt.json": {
+      "sha256": "6dda5e532cb184df18c783d6922cf96b1ac9d85de9c15787debfedc5202179b7",
+      "size": 672
+    },
+    "bsa-airbnb-lottie-android.json": {
+      "sha256": "595bf7a174ad2b56e5cceb80229759cbb728a3007b1303941d9f7ace585a075d",
+      "size": 701
+    },
+    "bsa-apache-avro.json": {
+      "sha256": "27580db16418efaa4aa6db70f18272482309502ba524d06e80c37a1918b9d848",
+      "size": 708
+    },
+    "bsa-apache-commons.json": {
+      "sha256": "ba19656d92803395c219bf2bfc66e003260a6d747c56572c4aa4578981d15c2e",
+      "size": 717
+    },
+    "bsa-apache-cordova.json": {
+      "sha256": "5714bf18912b7048044e0311537336dba59b7aa05637eadc103837e7d9fda6d5",
+      "size": 717
+    },
+    "bsa-apache-httpcore.json": {
+      "sha256": "3d140103a8fa664a3f3b43256f3343006cbefd7cd340ecc4a67beab2e43be274",
+      "size": 722
+    },
+    "bsa-apache-lucene.json": {
+      "sha256": "66dcb8a83b78db6ca36d644a4302b812c1cd7d14aaf8dd820fd3a01ce720282a",
+      "size": 714
+    },
+    "bsa-apache-solr.json": {
+      "sha256": "6309d10b3af4f092ca1db3dea63f5b6e1439d91478a5d72ae899fb5f271598b4",
+      "size": 708
+    },
+    "bsa-apache_xpat.json": {
+      "sha256": "1e573bb21e5c91d3c0df6f179b5f4cabce1a92288fb831fcecf93b8c9a5befee",
+      "size": 664
+    },
+    "bsa-arm_mbedtls.json": {
+      "sha256": "799c6b9e1d42c9688fbcc5ce8ea44b7e566edfcfea319915fdbed61e415bf87e",
+      "size": 654
+    },
+    "bsa-arm_mbedtlssockets.json": {
+      "sha256": "a78288211f297b42bb979e290de9c989c2b24353007be7902e8d45ce09fca397",
+      "size": 698
+    },
+    "bsa-boltsframework-android.json": {
+      "sha256": "6ab82f32c1dad873b37f833cb53228265a3e3aded961dc5710669ab3476fd427",
+      "size": 691
+    },
+    "bsa-boostorg_boost.json": {
+      "sha256": "a85b18973be0d89168c7802eeffd543ff164917713023116c324b418cf7b901c",
+      "size": 674
+    },
+    "bsa-bouncycastle.json": {
+      "sha256": "4472e5bda85b28d15d3be02c4e7bed4bfdcf00725764720135db866aa1d3b928",
+      "size": 698
+    },
+    "bsa-bumptech-glide.json": {
+      "sha256": "18d31d44bc730a103ac6b16ba4b0fb9365880036f239d2e28cc9bce1c2dd9fcb",
+      "size": 992
+    },
+    "bsa-chrisbanes-photoview.json": {
+      "sha256": "3979faf158f765831010372ebbc205dd084d479e4e8580f89523365a76743a98",
+      "size": 667
+    },
+    "bsa-comscore-android-sdk.json": {
+      "sha256": "b6b3eb720c5cc3a0314461e836030de292a118056c107fdad5fefdc2a1fd5a93",
+      "size": 689
+    },
+    "bsa-costigliola-assertj.json": {
+      "sha256": "fbbc32a1abb374f54cda85a61487d9f2dd2233486622eddce438ecc02d493976",
+      "size": 728
+    },
+    "bsa-danlew-joda.json": {
+      "sha256": "7c8ea96b663ae1fc9e8c901b7c3f31fb0beb509bb77891d4b6fb8ebfef59139b",
+      "size": 672
+    },
+    "bsa-facebook-android-sdk.json": {
+      "sha256": "99bccc26b6fe49a6879a7bb4740f858fb85f359fd6ce11dfa155ed585e2c48fb",
+      "size": 716
+    },
+    "bsa-facebook-fresco.json": {
+      "sha256": "f45fe1bf837b4327820213bdb7d506c274df13f2e57a46bbfb5a4be22ceca983",
+      "size": 671
+    },
+    "bsa-facebook-infer.json": {
+      "sha256": "9834a30f058a60ffaf59f72abc759cd764c733eb28d9578f1da6d88f16a408fc",
+      "size": 668
+    },
+    "bsa-facebook-react-native.json": {
+      "sha256": "6935941a7f7a9203a3299aaa191903954bab6802364383abb88f70c826a26a29",
+      "size": 1124
+    },
+    "bsa-facebook-yoga.json": {
+      "sha256": "f8866407b00f2d855f243c51af103a5e8548cfa3e2836b6d7f5ad98dc547aa4d",
+      "size": 657
+    },
+    "bsa-facebook_folly.json": {
+      "sha256": "fb2ec3f22b2ef5c62be3ac11a2fa7f68d47b2d85eb1f73bdcb4aadb2b85b9a4a",
+      "size": 675
+    },
+    "bsa-fangyidong-json-simple.json": {
+      "sha256": "e42c3e064c922dab09e7b6ec644accdfc435b302502f307c7d5f1d14a7c3a18f",
+      "size": 695
+    },
+    "bsa-fasterxml-jackson.json": {
+      "sha256": "00fb70af31565044159bdc77e0d61a1c3acce362a0d279e1d07fa55c614c4a97",
+      "size": 681
+    },
+    "bsa-ffmpeg.json": {
+      "sha256": "c3db9a8490c71cb00650786e1a7c67d166ca2a4e293f3979ba15bbfe3f6a92ae",
+      "size": 102766
+    },
+    "bsa-fsnotify-fsnotify.json": {
+      "sha256": "8339fe12e7ce38ae6049ff6d85e3db7e68814b848ddf55aff1e05194b1a97b86",
+      "size": 670
+    },
+    "bsa-gabime_spdlog.json": {
+      "sha256": "02fe9cc37afd69752132f0d5f98ac098689e775767731a8d461e2ead7393d05b",
+      "size": 692
+    },
+    "bsa-gnu_gcc.json": {
+      "sha256": "55d263307c6406add0570b35d32dd8a6163f9ef67f3d2ab22225ecbe4f1bd1d3",
+      "size": 928
+    },
+    "bsa-gnu_libiconv.json": {
+      "sha256": "366ba624f4d05be14d22e62917369d59c90643f662354fd08e223e232850ab9c",
+      "size": 910
+    },
+    "bsa-google-ads.json": {
+      "sha256": "73c55168b91eb556fc24d126b4533e0b225d7bef033877fca1f19df98082dbd4",
+      "size": 687
+    },
+    "bsa-google-android.json": {
+      "sha256": "122596c93d698168d120db8af82aca93d729f39235133ca8b8efe510f85d5b53",
+      "size": 680
+    },
+    "bsa-google-conscrypt.json": {
+      "sha256": "25f31564aeeb3384ab89ff722bdfa5bb5040a726f31c8f5d7e3565efc8e43479",
+      "size": 3344
+    },
+    "bsa-google-dagger.json": {
+      "sha256": "e5d05c17a846e97478d5ef3d489672a66bb4e83c8be716e45f8717c1905c4fd7",
+      "size": 666
+    },
+    "bsa-google-firebase.json": {
+      "sha256": "ed9bf975ae8f581e2abdb2e4c8eaba51a9ad253e014718908f6136b43cf24664",
+      "size": 698
+    },
+    "bsa-google-go.json": {
+      "sha256": "da1c540629d764dec17469571c43cd7e6fc26b7d9cadd1356df2128e134780c1",
+      "size": 645
+    },
+    "bsa-google-gson.json": {
+      "sha256": "7bdb2166e0fe483712d7bb08790f6af4e601df2f7f8f934737a18ad65235d945",
+      "size": 866
+    },
+    "bsa-google-guava.json": {
+      "sha256": "5e58a5d0b75df5fc96c2500613ea6f9d90c6efa59b174071824203b24af95389",
+      "size": 641
+    },
+    "bsa-google-j2objc.json": {
+      "sha256": "a7965b13ad694e42cc96d21e896a5ef3e5d6ce3d7641bdd270ef356035796d86",
+      "size": 1408
+    },
+    "bsa-google-protobuf.json": {
+      "sha256": "a74d24f948b0b9649f06f93f67e41b1bd2325fa30ef2cc7a30b4e2c7b1fcb13c",
+      "size": 1842
+    },
+    "bsa-google-volley.json": {
+      "sha256": "c046bcbc5d083abf792bba41f5ea4d33f83c64e0c0c898d1e745a835bdbfdefb",
+      "size": 664
+    },
+    "bsa-google-zxing.json": {
+      "sha256": "fea4013e69f17262078aed6f6c9d9f2dd5470b9a05ad48cd3f03013a1de2c8d4",
+      "size": 673
+    },
+    "bsa-google_exoplayer.json": {
+      "sha256": "d3d79d1d3c1915d368b74ba008e8281de24064401f9a04d579f6ca919e6272cf",
+      "size": 653
+    },
+    "bsa-google_pdfium.json": {
+      "sha256": "c60718249297e0bc4f9eba23f320cef8e4fcb3aa404e68e881fb0bd381367d11",
+      "size": 644
+    },
+    "bsa-google_skia.json": {
+      "sha256": "f0833a81bea023acfcfbbae003fa23ed9524ba9451a2911d4df8832b77a2dd15",
+      "size": 640
+    },
+    "bsa-google_snappy.json": {
+      "sha256": "5a77814612aba45b4ce520c484ff721c4396cb24a148b968cc548019dbfafaf1",
+      "size": 646
+    },
+    "bsa-google_webrtc.json": {
+      "sha256": "20028547840a6df20fabcde3c50248d134507e995ca6ae92bdf687d8b2651e6a",
+      "size": 859
+    },
+    "bsa-greenrobot-eventbus.json": {
+      "sha256": "ca035b9c5f09b9d3d5bb5c36be79139d26c6b7d4447e6ea8aa6730ceefbee7be",
+      "size": 684
+    },
+    "bsa-h6ah4i_openslmediaplayer.json": {
+      "sha256": "81f7a1a871ac5dea5fd1b1f103df9eeec8e24e3914c69f91ea28560be7f8ee58",
+      "size": 685
+    },
+    "bsa-harfbuzz_harfbuzz.json": {
+      "sha256": "c52673419ce0950421ab98c47f899a3fa15f5b49363c025b7d2d92751529373c",
+      "size": 649
+    },
+    "bsa-hashicorp-hcl.json": {
+      "sha256": "8abddd6e289e5100fb48f03322da0a79b00192bfc118f90aa1222d90c5311773",
+      "size": 641
+    },
+    "bsa-hunspell_hyphen.json": {
+      "sha256": "c7fc3452d783dedf524f21fcfd49793bc79bd4cdca4e96a3b38d28f0665b3f5d",
+      "size": 682
+    },
+    "bsa-icu_unicode.json": {
+      "sha256": "ee688e1b849d1bc0e1f8b0c87df86089863eb50673f1c147dc0a8ebac0862a40",
+      "size": 705
+    },
+    "bsa-immutables-immutables.json": {
+      "sha256": "b14ecfad73481957a8b213fff9736f79bd69429f2efb4a501a5381b8cdd1c774",
+      "size": 668
+    },
+    "bsa-jakewharton-butterknife.json": {
+      "sha256": "c3f79f7a41ca499dbab962b91e504906bd6fa6415610951b7e23e527b1825b41",
+      "size": 690
+    },
+    "bsa-java-core.json": {
+      "sha256": "226b46af30f6e2a325d72d9db5e0ec35f527c1d618c98759d1eb352b2a61291d",
+      "size": 714
+    },
+    "bsa-jetbrains-javaannotations.json": {
+      "sha256": "61add35c5a2b0095e417568f43af61966e74fbb21daca49b07ac251ba121c01e",
+      "size": 704
+    },
+    "bsa-jodaorg-joda.json": {
+      "sha256": "1cdf545eeb652a0266c7931fc386cd97c626aabb462f3ee5ad70a40ca8c2560d",
+      "size": 657
+    },
+    "bsa-kakadu_kdu_image.json": {
+      "sha256": "5f9bbddf1385ff8af477f6da03e968ae82b628cc43eaf3f8cb9b2cadc3a7d01d",
+      "size": 709
+    },
+    "bsa-kazuho_picojson.json": {
+      "sha256": "ccf6fa26cd4fbb92b3e78e379d70c31f8b2d43460dcb8c22250100ff93d47aee",
+      "size": 676
+    },
+    "bsa-kotlin-core.json": {
+      "sha256": "352d7b0d07f879a839413d371ffaf86dec276e4dcec022dcf5d6bbc800c50c1b",
+      "size": 682
+    },
+    "bsa-leolin-shortcutbadger.json": {
+      "sha256": "f21b3492882c03ebad26e5597b474384418f07ecef5ab7022c56ae86b0b56eaa",
+      "size": 668
+    },
+    "bsa-libfontconfig.json": {
+      "sha256": "7095af78190e8d58c2d45290443fa978d87ac779ede56ad37b5c0fc49d8b5d64",
+      "size": 655
+    },
+    "bsa-libjpeg.json": {
+      "sha256": "15eeba94d03b7f2e858ef9cbc63b5a7aeeff8d297533b8e5642e1aa59301ef9b",
+      "size": 677
+    },
+    "bsa-libunwind.json": {
+      "sha256": "cc16d7def755154928b4de4c3e84d0695cbfa110f5a3d8a4ac912c875a24c6a0",
+      "size": 9951
+    },
+    "bsa-localytics-sdk.json": {
+      "sha256": "57c67eab12a0aa203b1f7d8c9f875b41bcc05290c2fd56e9efac0a9b76f84d84",
+      "size": 718
+    },
+    "bsa-magiconair-properties.json": {
+      "sha256": "eda1b0af97858c0de711f63572350583558e55034a2bf0e663fe741a81e299bf",
+      "size": 700
+    },
+    "bsa-mikeortiz-touchimageview.json": {
+      "sha256": "8882d0ee3fa08920c6c03ce26ccd6bf21afdf5ca1c3fef1b06524bc7344b6a7f",
+      "size": 670
+    },
+    "bsa-mit-krb5.json": {
+      "sha256": "11c4f5e2772ca8a8f144dc541d49ef2b32e79c7568f17295917a4fe97f2cbcbc",
+      "size": 659
+    },
+    "bsa-nanohttpd-nanohttpd.json": {
+      "sha256": "ba29cac8aa326d14573e44c4e322d28a225a2645e75569b0daf3313a7ee95ebf",
+      "size": 694
+    },
+    "bsa-netinsight-sye.json": {
+      "sha256": "89769210a3a8acde81ed728bd954196babd9c2723a2f55b932c0dc2dad3cb618",
+      "size": 685
+    },
+    "bsa-netty-netty.json": {
+      "sha256": "3c507fe2958a56d7c643bfcf92feaef79bc371b165418bd1038ddb39db2e8092",
+      "size": 654
+    },
+    "bsa-nostra13-universalimageloader.json": {
+      "sha256": "8542e003d8b168499d563c35e503a27bc656d536cf24417bb94f118df117ba26",
+      "size": 972
+    },
+    "bsa-pelletier-gotoml.json": {
+      "sha256": "087d63c10757105b28bc24583a0a75c90776114b98fa8546edcbf8ece5e0705c",
+      "size": 657
+    },
+    "bsa-pixar_opensubdiv.json": {
+      "sha256": "6fe369bf1ef0a57bfcc16116b2de4c65de40e39b3060f3a38a9ba08d011f3125",
+      "size": 689
+    },
+    "bsa-pkg-errors.json": {
+      "sha256": "1c40df11e4f5b1f69d0f572650804abc0e2c4ef0e4f14d2a64ddbbaef50eb33e",
+      "size": 661
+    },
+    "bsa-pkg-sftp.json": {
+      "sha256": "3f8a3e2f58fb94f09245fefbb8275d9311a3b0a067a97ece2f86dfdf4b4339e5",
+      "size": 655
+    },
+    "bsa-qos-slf4j.json": {
+      "sha256": "e4b100d6330f05c36eead74a58079dd792f3e66a3929f6a23f165d9bb0cf091e",
+      "size": 631
+    },
+    "bsa-reactivex-rxjava.json": {
+      "sha256": "5d627177e2dc3ba68a1955f0f6f6edba9f7860179665352d27f3246d21ca40f5",
+      "size": 671
+    },
+    "bsa-roughike-bottombar.json": {
+      "sha256": "9cf1d0a8bcf8d5cc4d83700793b45f1d62f194ed661db02c921af7cb1e4dfa44",
+      "size": 677
+    },
+    "bsa-rtyley-spongycastle.json": {
+      "sha256": "49fdc5490caa46c65a64bf2d5c0792765f78ef876e4d9ea145c76cb0e4b1ba6e",
+      "size": 657
+    },
+    "bsa-rzwitserloot-lombok.json": {
+      "sha256": "9dfec9e1d33318b341f5ed316ceeddc4027d9b260ea79543e099cba3502edeca",
+      "size": 659
+    },
+    "bsa-samsung-android.json": {
+      "sha256": "ae3740cb55cf529b4b139b7308074cf77baec8978076870a92e87b761ac2a144",
+      "size": 693
+    },
+    "bsa-sax-sax-parser.json": {
+      "sha256": "3a4fcbb6d52fd649909350b70695776dfd0720e4c03a74a446a39a802ea25db4",
+      "size": 666
+    },
+    "bsa-sirupsen-logrus.json": {
+      "sha256": "af4ec34a69bed763f600d82cc3af2ef8427a77fb30e433d8d0eb22b2a8c2b202",
+      "size": 657
+    },
+    "bsa-spf13-afero.json": {
+      "sha256": "9c61591e83c8e8a0d6301acaaa06f994f28f2ca7583f950ca6fd60ae7a76aaa2",
+      "size": 654
+    },
+    "bsa-spf13-cast.json": {
+      "sha256": "bf12889e7dba3bc55040591cdb892c6c5d3554d139815dfc9956e3f1d37d2ea4",
+      "size": 644
+    },
+    "bsa-spf13-cobra.json": {
+      "sha256": "1272ebda7dffdc27a968e29794f1ea741890f8f693c736a55396ad30000674a5",
+      "size": 654
+    },
+    "bsa-spf13-jwalterweatherman.json": {
+      "sha256": "458298e3769b214612136dfd7db90ccca6d4a33d2b262a889ffa190e61791299",
+      "size": 683
+    },
+    "bsa-spf13-pflag.json": {
+      "sha256": "1e610e5f9e7cabe58fd01ab32b17524f2b08e597b9ee536f1a786ea701e1581c",
+      "size": 654
+    },
+    "bsa-spf13-viper.json": {
+      "sha256": "6b0f6600b0816c39404145c58c9ed5c293477292d26ee78ac118460259d07833",
+      "size": 647
+    },
+    "bsa-square-haha.json": {
+      "sha256": "d89d725c304afebbe0b99e5574a0b3b3245dcc70411b8bac85097dc9b1687625",
+      "size": 723
+    },
+    "bsa-square-javapoet.json": {
+      "sha256": "ca513f62cd309294cd8ca66b53960a27c099dc6e936907034f9c2b208f52cebe",
+      "size": 648
+    },
+    "bsa-square-leakcanary.json": {
+      "sha256": "02ac80a27b05ecfecfc4f7f9f4dbd3d8e0e7952bb5ed833a562d0cbcdeb09bf1",
+      "size": 656
+    },
+    "bsa-square-okhttp.json": {
+      "sha256": "fae46ae54e3cdf9428086e293359823677b2ad0ffb33bc7c744174620fc76671",
+      "size": 646
+    },
+    "bsa-square-okio.json": {
+      "sha256": "d59e0d825b43a9d0add2e0af1187315871c8741872b24819a55aeaf3094ee260",
+      "size": 638
+    },
+    "bsa-square-picasso.json": {
+      "sha256": "44d1717a043af8642f23f6b6debec37488f97338ab655d8590ba881366a0c6c3",
+      "size": 647
+    },
+    "bsa-square-retrofit.json": {
+      "sha256": "20bdc304bd516f266b369e3af2cd46b3e33a65e039decc6bff2d2c2b2787eb90",
+      "size": 1061
+    },
+    "bsa-subosito-gotenv.json": {
+      "sha256": "5e6c282797da58bf120c18ea9f1871b48d4cad01a1f73ee25fd4599b6f8ea5f6",
+      "size": 652
+    },
+    "bsa-thoughtworks-paranamer.json": {
+      "sha256": "549a0582663898cd286355e0bd3eb544410ef7e18e7159f3570dec12dd21c434",
+      "size": 673
+    },
+    "bsa-tune-androidsdk.json": {
+      "sha256": "74e34ccf39dc45097908d151506009a35b21c51176cc7bcc6dc6bdae8643be9d",
+      "size": 719
+    },
+    "bsa-umd-multithreadedtc.json": {
+      "sha256": "64152cf114e03a9b2f12d7a6e05bca9751bad6435e1e648f9bba80b8554a942a",
+      "size": 722
+    },
+    "bsa-utf_cpp.json": {
+      "sha256": "2879570aaa6e2f5ffd828d54c4cbed8df013e8e16c1c754f10ee87028b0b6c1a",
+      "size": 671
+    },
+    "bsa-waywardgeek-sonic.json": {
+      "sha256": "7a534dd6e9da648db4b474c0ad755dd6ac87affd564e51046d3bc46265eeb2df",
+      "size": 696
+    },
+    "bsa-webkit.json": {
+      "sha256": "26feea31acafa0fb140e479bbdf57a05f7ade2e0ce8065643e97190da8a823c9",
+      "size": 696
+    },
+    "bsa-x264.json": {
+      "sha256": "44e9f77a7409e0100299bbf446d19ffee372ab9404e8079225040143bb181b0c",
+      "size": 9864
+    },
+    "bsa-x265.json": {
+      "sha256": "15f6f08313ca4ed8d55f21a7f5bd6e2f419494729c0a7552dc8632fbaed48b04",
+      "size": 1044
+    },
+    "bsa-xdp_cximage.json": {
+      "sha256": "ff8f8b96bd275fd950f205d928bb59a965fbcba5c4acc4c5e574e38895c437ca",
+      "size": 702
+    },
+    "bsa-xiph_libopus.json": {
+      "sha256": "84d0bc20b388abea1b710843bfa8aafab1ac190d287d98117f528f457f0b867b",
+      "size": 683
+    },
+    "bsa-xiph_vorbis.json": {
+      "sha256": "fdc5eccfc994632a75009bb741de6de0c2d6d42850f063e9a768d78800e9cb09",
+      "size": 680
+    },
+    "bugsnag.json": {
+      "sha256": "4150ab0d3bd6b8b07278741d8afd13ab3c45b67065d99c4b3da2a7b2057d8e08",
+      "size": 606
+    },
+    "cairo.json": {
+      "sha256": "8521eb3cfc1e83c0408df68ff3f667a86465f17e5b64a13a3486ca7a97810aea",
+      "size": 7239
+    },
+    "cimage-and-cimageiterator.json": {
+      "sha256": "765211b895feaaca333559be312af2aaa9fb4f22ffb474a892974194fe9c5940",
+      "size": 613
+    },
+    "corejs-bytecode.json": {
+      "sha256": "0b049a2a526b8e684b7f5d589804177fa636b7b1e089693ebb6b391b48fa54c6",
+      "size": 5118
+    },
+    "curl.json": {
+      "sha256": "f21a8ab966d5defbfa0b6f1af55b017f944e52df8899981b6bf13d3bcdca114e",
+      "size": 6972
+    },
+    "dolby.json": {
+      "sha256": "07defa27d8192617de7efd83739e354e7a613eaf8c86df158a05c0ee069f2e58",
+      "size": 1700
+    },
+    "dotnet-core.json": {
+      "sha256": "3744a33fdfd5ad1bfb25b818b832326be165c61b232ff286eed5ae3ef3a6dd40",
+      "size": 2053
+    },
+    "expat.json": {
+      "sha256": "086cf87fe97e317aa26d5854bac85ba2f5b93096dba9afb6c3d1d611979df5db",
+      "size": 3884
+    },
+    "facebook-android-sdk.json": {
+      "sha256": "e2510b8d4be268e5715d4f8ecbf0d4c8a261b90f742692a92645bd1199d99e88",
+      "size": 615
+    },
+    "fast-c++-logging---spdlog.json": {
+      "sha256": "df8ccbd03c5f9313156604d8e93586b91352ad4f05021152aad4fa0d9ed746c1",
+      "size": 604
+    },
+    "fasterxml-jackson.json": {
+      "sha256": "6327bf80eca1bee133b13b5520b51a83c20d4e2b9fddd1b16f4d3388e03de29e",
+      "size": 595
+    },
+    "fdk-aac.json": {
+      "sha256": "72486865f9c79aa55f4cfd3cc86175077fbdc967aa99f4404397cffe7b4247f5",
+      "size": 642
+    },
+    "ffmpeg-codecs.json": {
+      "sha256": "7582a31a356c78a786bfbdfe0f6897214cdb6191c8fe7de5e54014eb50a944f0",
+      "size": 660
+    },
+    "ffmpeg-enhanced.json": {
+      "sha256": "c914c8aa7cf1d8f71b81bfc6f0bb8d11b2b7aa77c4c16d18918b23c4438dc7db",
+      "size": 8910
+    },
+    "ffmpeg-rubberband.json": {
+      "sha256": "c518b750727836eea8a111cdff36349a3e7694543f187293d10f7a3f53c77578",
+      "size": 602
+    },
+    "ffmpeg-soxr.json": {
+      "sha256": "068defbc14753b426bdd710de15746a7e3e85a3e5f7e43baef7f7efa86a4d951",
+      "size": 554
+    },
+    "ffmpeg-speex.json": {
+      "sha256": "d42cab78a745eff56067f7fcdfa8916f807eaec02c3fde129541641e53c0c687",
+      "size": 459
+    },
+    "ffmpeg-swresample.json": {
+      "sha256": "c84da6205e5a699c5429593ad16dfc61aa217904810f124b12b2d76695f8ec19",
+      "size": 472
+    },
+    "ffmpeg-swscale.json": {
+      "sha256": "070db92c9496086ce76f80e0ebf23f0508734e8caf887ce4267d5ca9bad10d3e",
+      "size": 494
+    },
+    "ffmpeg-theora.json": {
+      "sha256": "ef860cbf1e63b5db01ceb2c45bcaeb2db33c107c90837b5e3eb94c15c1cbc9d2",
+      "size": 461
+    },
+    "firebase-crashlytics.json": {
+      "sha256": "58f32e8f5ae4a1b786f9a6bfd1a55b7c843fcf0544bb0974ae20da950165997f",
+      "size": 626
+    },
+    "flac.json": {
+      "sha256": "0d73376c5d416420da65fb1fae337020fae7f4adcf964deec494c39837ca8107",
+      "size": 629
+    },
+    "freetype.json": {
+      "sha256": "ba1c49dfc757485c69e036dd3e420f7690594c677f8c4b22d8a74b63314fca0d",
+      "size": 996
+    },
+    "glib.json": {
+      "sha256": "61c5b0314f198b4d314f6fdb77c7ba6dcd0c3c4dbdf2bb689d5b837f764e550c",
+      "size": 2389
+    },
+    "gmp.json": {
+      "sha256": "4a84c1ff15ed9d07ee025b0f80c35cffc2d5af837d65c7f043e363f46b75a11f",
+      "size": 8040
+    },
+    "google-gdata-objectivec.json": {
+      "sha256": "e15dd5a8c978634d336c2417d2f18ae5f8982db5403e45b419b22afeab615fc5",
+      "size": 712
+    },
+    "gstreamer.json": {
+      "sha256": "6c25d4f995b167fe6126fe9ade25cc6109e69dc5108f2b738d0d9ec934c7f8d9",
+      "size": 7841
+    },
+    "gtm-http-fetcher.json": {
+      "sha256": "5fccf68bf8de4a600a2cdd45ffb766dec0b9479a35fb3da7a851fc89bf97e318",
+      "size": 945
+    },
+    "h264.json": {
+      "sha256": "fe5cf9fed3eeb59a07b7409dfd01994a6c668401f9f755cbaa893455dcbc545c",
+      "size": 1245
+    },
+    "h265.json": {
+      "sha256": "1b4f577153968a50b1411f482911d55906180fa96a8e911efedb4b6059fdfcbf",
+      "size": 1044
+    },
+    "hermes.json": {
+      "sha256": "b57a99a392a4cd4c799b76a545d1f995e0f5d6053c1c72380cf69d65cd0f6c02",
+      "size": 5925
+    },
+    "highway.json": {
+      "sha256": "192f6509b1ad6c3e272f33ec9184ce484fef0bc71e63653a9fc2b3f4f88e247a",
+      "size": 6667
+    },
+    "icu.json": {
+      "sha256": "7caaca465d927a46e51a2ed39b4f75dd2197c63c2487e8f36c4ed0e6b38150c4",
+      "size": 738
+    },
+    "jetpack-compose.json": {
+      "sha256": "f3edd59887a816f8345de1e1be860a34a325aaf9847cee18b8400212b7ddce88",
+      "size": 719
+    },
+    "jquery.json": {
+      "sha256": "61a63b7ec865b6db5c423018a4c07550efa97af8c9dd4ebc0846b2c7cb2e9c6f",
+      "size": 646
+    },
+    "lame.json": {
+      "sha256": "93e85f9e08e1746fc38de8b27fb0ded9b7016e842f51c8ad318f32fe4429fc5f",
+      "size": 609
+    },
+    "lcms2.json": {
+      "sha256": "9ac42cac6a4e9494081f5610e52c2c16fed8e88c7c898a9e297dc7759bd3614a",
+      "size": 7639
+    },
+    "libaom.json": {
+      "sha256": "18078b1e6f8f7837c1278f19545f0a0153fb300e1eb723f3d73418c807caa5a1",
+      "size": 646
+    },
+    "libcap.json": {
+      "sha256": "12c4810bf44bbec151483d59b74e949e33544cfa2956346a7b1767a06fa2f339",
+      "size": 2125
+    },
+    "libjpeg-enhanced.json": {
+      "sha256": "df0f76dbee74a5caa2dadf21051a75a496deee9b46569b8f2b4d8af96d6e874f",
+      "size": 777
+    },
+    "libpng.json": {
+      "sha256": "ce55463b8ad30f0c8526c1ac17903c3e7ecaacf4e637272dac4959e4fe609694",
+      "size": 571
+    },
+    "libvpx.json": {
+      "sha256": "79f55152a097e72cfcdcf6a7038bdc8457b61ec4451fb9daea196018a9bfd0b8",
+      "size": 639
+    },
+    "libxml2.json": {
+      "sha256": "3c9bfb5724e78f9d03cb44c77ca5df7109c929468417a77724a2525bb97037d9",
+      "size": 559
+    },
+    "lodash-bytecode.json": {
+      "sha256": "1b246ad7b972f7fef4fd10fe26470f433d2429e642881e810f30a1f0032591e8",
+      "size": 6086
+    },
+    "lz4.json": {
+      "sha256": "fe0bc9970a0c0ded49f2efb2e46df32dce895a324b44fa37cc4970398c51da30",
+      "size": 3371
+    },
+    "metro-bytecode.json": {
+      "sha256": "fafda3c7e1b2c1101d81e95f67970598c7ce5137b8df0a17ee84b2e017554ef6",
+      "size": 5063
+    },
+    "okhttp.json": {
+      "sha256": "0e900319da86f42203d50af7b9adbf0aec4c73558426e17cf95ed24a65e7615a",
+      "size": 701
+    },
+    "onnx-architectures.json": {
+      "sha256": "3125f73a2c6387fc4a0a16f5e406fdd0c61f7e2670cd85654b548b119a1bc8f3",
+      "size": 2239
+    },
+    "onnx-pytorch.json": {
+      "sha256": "e7762c7a4f69a3008358b7f285c3a92abfb81ed12b0113edbfa1a153de95eb18",
+      "size": 1585
+    },
+    "onnx-security.json": {
+      "sha256": "11157417fa3d3fbcc63f566cf3b89ef3da5d2b5189387cf682955fd2a175dcc8",
+      "size": 1700
+    },
+    "onnx-tensorflow.json": {
+      "sha256": "fd4c7c6bce16860b6d966c0a03da68e3d4dc485a6fe2a27bfe4d42bf916ba4eb",
+      "size": 1648
+    },
+    "opencv.json": {
+      "sha256": "4387e3a6a7ffba8706fc376efd20fa3c2766e631a34d679e9d433fa3de40af46",
+      "size": 1057
+    },
+    "openssl.json": {
+      "sha256": "e799ff3aa11a6114ea3d6f6babbc2631cf67f3f12d8d999232e01789cbddaaa5",
+      "size": 29086
+    },
+    "opus.json": {
+      "sha256": "5d51064bc4705832e806213c429c7b62e8dfd06a02f48ad88f98481cfa5ab150",
+      "size": 7301
+    },
+    "pcre2.json": {
+      "sha256": "b72d4f2a3855691b062702d66cc5f8c5acde3d0808e647d2cccba84c620f6acc",
+      "size": 7524
+    },
+    "photoview.json": {
+      "sha256": "bf8448c1155a43dc4cf511d10054ee91a394b7a547e47155efb607ded2199412",
+      "size": 579
+    },
+    "picasso.json": {
+      "sha256": "0811a9553959f9678470ad39e2613f14d43d1525f34fb0c494b5e163fbac8cfb",
+      "size": 575
+    },
+    "pickle-malformed.json": {
+      "sha256": "0ddb1f82721c5e680c2b314205231c073e0936b7adeb7c487070895895e4e82c",
+      "size": 875
+    },
+    "pickle-malicious.json": {
+      "sha256": "5cf92de85d076ade0f3ae83622d9288730f09d2195b68d088d6edb3c9ffc80e6",
+      "size": 2860
+    },
+    "pkg-errors.json": {
+      "sha256": "7c092934526ca472e72caf7529376726815116372d212011c3ea2d48fbe81ece",
+      "size": 583
+    },
+    "pkg-sftp.json": {
+      "sha256": "493a801ec752d6e14096e71f6cb6e799614ae9ba958d7333575f9ef6d30728ae",
+      "size": 579
+    },
+    "proptypes-bytecode.json": {
+      "sha256": "d42621532e7ee65d3e4847b1db9ede727016ca50484b8be4d6728254beb9bf06",
+      "size": 4746
+    },
+    "pytorch-architectures.json": {
+      "sha256": "b74e50f4f8b902c36559ec62c40f50210a609fdc0be94f4f343e959f62a1e5de",
+      "size": 1998
+    },
+    "pytorch-native.json": {
+      "sha256": "6be51ac85f0fad8471aa0e13198fb01e5ca7a278b64cd6f5c07a41063bed80e1",
+      "size": 2175
+    },
+    "pytorch.json": {
+      "sha256": "ae20fa71c69f298709feffde0973629121c71242a6831a7521c3adf6e47d4037",
+      "size": 3240
+    },
+    "qt5.json": {
+      "sha256": "ec02c5f8c4b388a2f2ba48be710986b4a0f64a3407ecb580c7ca085a40a6dd79",
+      "size": 3505
+    },
+    "safetensors-format.json": {
+      "sha256": "0aeddcd5f7d508d96ec2a16dc96f18f3e6a1a867dbec0758acfeff2f62592f58",
+      "size": 1052
+    },
+    "safetensors-pytorch.json": {
+      "sha256": "c3fc4d86e2913a02eab76d74c3360d2ab47329ce7d1ba47fa60357499c10c46a",
+      "size": 1709
+    },
+    "safetensors-security.json": {
+      "sha256": "3374223406a4f679a965ed513b208122b7ac26d000af8cd448f7a483acdc9342",
+      "size": 1850
+    },
+    "safetensors-transformers.json": {
+      "sha256": "4871027ded64d690ca61cd5f545c86741f2a661a4a41dce24fadad62ecff4fa8",
+      "size": 3063
+    },
+    "sklearn.json": {
+      "sha256": "17fa04f9290f5ca34be9bbcf047de84e10321266ea78de76bbd1dfbfee052d43",
+      "size": 3364
+    },
+    "sqlite.json": {
+      "sha256": "a84eef146f8c000d39ca5cf91cb9e13b12ab324ee2ad728a0a57ef4a2c4abab5",
+      "size": 957
+    },
+    "template.json": {
+      "sha256": "f14c6d5dfaa4bd6eda4fe0df9db4df3bf4584473f530b5e4aa0f0074247345f9",
+      "size": 660
+    },
+    "tensorflow-lite.json": {
+      "sha256": "a6f52a9a014f70f47050e67f2483c8c4824a4a36f4c37312ab6de82bc214e6a7",
+      "size": 1327
+    },
+    "tensorflow-native.json": {
+      "sha256": "58c6da361e8b44c4f15cb0aad47bb5ae7785c1e7fccf3b2d033678ebe07fd520",
+      "size": 2244
+    },
+    "touchimageview.json": {
+      "sha256": "0dfad74ea2c598b3bb11391ecce38e4ecadd8b597a831334aec7cb631815f3eb",
+      "size": 582
+    },
+    "webkit.json": {
+      "sha256": "b7a96b204e6313eb8a97623e370a5232159e797042fd922cf86c3acc59738612",
+      "size": 986
+    },
+    "webp.json": {
+      "sha256": "01ad4d9ef87aab5b5f24add32f19ef9d48c1bda06e95664856e3cd17b20d0a69",
+      "size": 3844
+    },
+    "wolfssl.json": {
+      "sha256": "e56353a60c47b8a1333f03e492358c757819cac59d29bb94f9f0388c6355cd03",
+      "size": 14609
+    },
+    "xgboost.json": {
+      "sha256": "a0a0a9bf13012c59047624ba3cefa7f4aa282c628a6de873b6bddcca2a469308",
+      "size": 1396
+    },
+    "xiph-vorbis.json": {
+      "sha256": "ee0bb1abbf8fc3ec67beb21347b727482450a62b66633dc88ebb680987a1f948",
+      "size": 585
+    },
+    "xz-utils.json": {
+      "sha256": "9c4fa75fab630b0a70eaa43170245acc22b8cc12f07a3ba8acee3342518828ea",
+      "size": 1921
+    },
+    "zlib.json": {
+      "sha256": "fe1f1dd90912418a687770f5c1828767475c14d0a4344f42479708221769633f",
+      "size": 736
+    }
+  },
+  "last_updated": "2026-08-06T00:00:00Z",
+  "signature_files": [
+    {
+      "component": "AAC Audio Codec",
+      "description": "Advanced Audio Coding (AAC) codec",
+      "filename": "aac.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 15,
+      "version": "unknown"
+    },
+    {
+      "component": "ALSA (Advanced Linux Sound Architecture)",
+      "description": "Advanced Linux Sound Architecture - Linux kernel sound card drivers and library",
+      "filename": "alsa.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "signature_count": 23,
+      "source": "binary_extraction",
+      "version": "1.0.0"
+    },
+    {
+      "component": "AV1 Video Codec",
+      "description": "AOMedia Video 1 (AV1) codec",
+      "filename": "av1.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 13,
+      "version": "unknown"
+    },
+    {
+      "component": "FMT formatting library",
+      "description": "Signatures for FMT formatting library - Aelve",
+      "filename": "bsa-aelve_fmt.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "AirBNB Lottie Android",
+      "description": "Signatures for AirBNB Lottie Android - AirBNB",
+      "filename": "bsa-airbnb-lottie-android.json",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Apache Avro",
+      "description": "Signatures for Apache Avro - The Apache Software Foundation",
+      "filename": "bsa-apache-avro.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Apache Commons",
+      "description": "Signatures for Apache Commons - The Apache Software Foundation",
+      "filename": "bsa-apache-commons.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Apache Cordova",
+      "description": "Signatures for Apache Cordova - The Apache Software Foundation",
+      "filename": "bsa-apache-cordova.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Apache HTTP Core",
+      "description": "Signatures for Apache HTTP Core - The Apache Software Foundation",
+      "filename": "bsa-apache-httpcore.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Apache Lucene",
+      "description": "Signatures for Apache Lucene - The Apache Software Foundation",
+      "filename": "bsa-apache-lucene.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Apache Solr",
+      "description": "Signatures for Apache Solr - The Apache Software Foundation",
+      "filename": "bsa-apache-solr.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "The Expat XML Parser",
+      "description": "Signatures for The Expat XML Parser - W3C",
+      "filename": "bsa-apache_xpat.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "ARMmbed TLS",
+      "description": "Signatures for ARMmbed TLS - ARMmbed",
+      "filename": "bsa-arm_mbedtls.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "ARMmbed TLS C++ Socket API",
+      "description": "Signatures for ARMmbed TLS C++ Socket API - ARMmbed",
+      "filename": "bsa-arm_mbedtlssockets.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Bolts for Android",
+      "description": "Signatures for Bolts for Android - Facebook",
+      "filename": "bsa-boltsframework-android.json",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Boost and Boost-Options",
+      "description": "Signatures for Boost and Boost-Options - Boost",
+      "filename": "bsa-boostorg_boost.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "BouncyCastle",
+      "description": "Signatures for BouncyCastle - Legion of the Bouncy Castle Inc",
+      "filename": "bsa-bouncycastle.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "BumpTech Glide Library",
+      "description": "Signatures for BumpTech Glide Library - BumpTech",
+      "filename": "bsa-bumptech-glide.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 1,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "PhotoView",
+      "description": "Signatures for PhotoView - Chris Banes",
+      "filename": "bsa-chrisbanes-photoview.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Comscore Analytics SDK",
+      "description": "Signatures for Comscore Analytics SDK - Comscore",
+      "filename": "bsa-comscore-android-sdk.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "AssertJ - Fluent assertions for java",
+      "description": "Signatures for AssertJ - Fluent assertions for java - Joel Costigliola",
+      "filename": "bsa-costigliola-assertj.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Joda-Time library",
+      "description": "Signatures for Joda-Time library - Daniel Lew",
+      "filename": "bsa-danlew-joda.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Facebook Android SDK",
+      "description": "Signatures for Facebook Android SDK - Facebook",
+      "filename": "bsa-facebook-android-sdk.json",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Facebook Fresco",
+      "description": "Signatures for Facebook Fresco - Facebook",
+      "filename": "bsa-facebook-fresco.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Facebook Infer",
+      "description": "Signatures for Facebook Infer - Facebook",
+      "filename": "bsa-facebook-infer.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "React Native",
+      "description": "Signatures for React Native - Facebook",
+      "filename": "bsa-facebook-react-native.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 2,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Facebook Yoga",
+      "description": "Signatures for Facebook Yoga - Yoga",
+      "filename": "bsa-facebook-yoga.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Facebook Folly",
+      "description": "Signatures for Facebook Folly - Facebook",
+      "filename": "bsa-facebook_folly.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "JSON Simple",
+      "description": "Signatures for JSON Simple - Fangyidong",
+      "filename": "bsa-fangyidong-json-simple.json",
+      "languages": [
+        "javascript"
+      ],
+      "platforms": [
+        "web",
+        "node"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "FasterXML Jackson",
+      "description": "Signatures for FasterXML Jackson - FasterXML",
+      "filename": "bsa-fasterxml-jackson.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "FFMPEG",
+      "description": "Signatures for FFMPEG - FFMPEG",
+      "filename": "bsa-ffmpeg.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 480,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "fsnotify",
+      "description": "Signatures for fsnotify - The Go Authors",
+      "filename": "bsa-fsnotify-fsnotify.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Fast C++ logging - spdlog",
+      "description": "Signatures for Fast C++ logging - spdlog - Gabi Melman",
+      "filename": "bsa-gabime_spdlog.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "GNU C Compiler and C Libraries",
+      "description": "Signatures for GNU C Compiler and C Libraries - Free Software Foundation",
+      "filename": "bsa-gnu_gcc.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 1,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "GNU libiconv",
+      "description": "Signatures for GNU libiconv - Free Software Foundation",
+      "filename": "bsa-gnu_libiconv.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 1,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Google Ads Library",
+      "description": "Signatures for Google Ads Library - Google",
+      "filename": "bsa-google-ads.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Google Android",
+      "description": "Signatures for Google Android - Google",
+      "filename": "bsa-google-android.json",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Google Conscrypt",
+      "description": "Signatures for Google Conscrypt - Google",
+      "filename": "bsa-google-conscrypt.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 12,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Google Dagger",
+      "description": "Signatures for Google Dagger - Google",
+      "filename": "bsa-google-dagger.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Firebase - Fabric Library",
+      "description": "Signatures for Firebase - Fabric Library - Google",
+      "filename": "bsa-google-firebase.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Go",
+      "description": "Signatures for Go - The Go Authors",
+      "filename": "bsa-google-go.json",
+      "languages": [
+        "go"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "GSON Library",
+      "description": "Signatures for GSON Library - Google",
+      "filename": "bsa-google-gson.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 1,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Guava",
+      "description": "Signatures for Guava - Google",
+      "filename": "bsa-google-guava.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "J2ObjC Annotations",
+      "description": "Signatures for J2ObjC Annotations - Google",
+      "filename": "bsa-google-j2objc.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 3,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Protobuf Library",
+      "description": "Signatures for Protobuf Library - Google",
+      "filename": "bsa-google-protobuf.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 5,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Volley HTTP Lib",
+      "description": "Signatures for Volley HTTP Lib - Google",
+      "filename": "bsa-google-volley.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "ZXing barcode scanner",
+      "description": "Signatures for ZXing barcode scanner - Google",
+      "filename": "bsa-google-zxing.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "ExoPlayer",
+      "description": "Signatures for ExoPlayer - Google",
+      "filename": "bsa-google_exoplayer.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "pdfium",
+      "description": "Signatures for pdfium - Google",
+      "filename": "bsa-google_pdfium.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "SKIA",
+      "description": "Signatures for SKIA - Google",
+      "filename": "bsa-google_skia.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Snappy",
+      "description": "Signatures for Snappy - Google",
+      "filename": "bsa-google_snappy.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "WebRTC",
+      "description": "Signatures for WebRTC - Google",
+      "filename": "bsa-google_webrtc.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 1,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "GreenRobot EventBus",
+      "description": "Signatures for GreenRobot EventBus - GreenRobot",
+      "filename": "bsa-greenrobot-eventbus.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "OpenSLMediaPlayer",
+      "description": "Signatures for OpenSLMediaPlayer - h6ah4i",
+      "filename": "bsa-h6ah4i_openslmediaplayer.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "HarfBuzz",
+      "description": "Signatures for HarfBuzz - HarfBuzz",
+      "filename": "bsa-harfbuzz_harfbuzz.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "HCL",
+      "description": "Signatures for HCL - HashiCorp",
+      "filename": "bsa-hashicorp-hcl.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Hunspell Hyphen",
+      "description": "Signatures for Hunspell Hyphen - Hunspell",
+      "filename": "bsa-hunspell_hyphen.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "International Components for Unicode",
+      "description": "Signatures for International Components for Unicode - Unicode",
+      "filename": "bsa-icu_unicode.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Immutables",
+      "description": "Signatures for Immutables - Immutables",
+      "filename": "bsa-immutables-immutables.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "ButterKnife Project",
+      "description": "Signatures for ButterKnife Project - JakeWharton",
+      "filename": "bsa-jakewharton-butterknife.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Open Source Java Core",
+      "description": "Signatures for Open Source Java Core - SUN/Oracle/OpenJDK",
+      "filename": "bsa-java-core.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "JetBrains - java-annotations",
+      "description": "Signatures for JetBrains - java-annotations - JetBrains",
+      "filename": "bsa-jetbrains-javaannotations.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Joda Convert",
+      "description": "Signatures for Joda Convert - JodaORG",
+      "filename": "bsa-jodaorg-joda.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Kakadu framework",
+      "description": "Signatures for Kakadu framework - David Taubman",
+      "filename": "bsa-kakadu_kdu_image.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "PicoJSON",
+      "description": "Signatures for PicoJSON - kazuho",
+      "filename": "bsa-kazuho_picojson.json",
+      "languages": [
+        "javascript"
+      ],
+      "platforms": [
+        "web",
+        "node"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Open Source Kotlin Core",
+      "description": "Signatures for Open Source Kotlin Core - JetBrains",
+      "filename": "bsa-kotlin-core.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "ShortcutBadger",
+      "description": "Signatures for ShortcutBadger - LeoLin",
+      "filename": "bsa-leolin-shortcutbadger.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Fontconfig",
+      "description": "Signatures for Fontconfig - freedesktop",
+      "filename": "bsa-libfontconfig.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Libjpeg",
+      "description": "Signatures for Libjpeg - Independent JPEG Group (IJG)",
+      "filename": "bsa-libjpeg.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "libunwind",
+      "description": "Portable and efficient C API for determining the call-chain of a program",
+      "filename": "bsa-libunwind.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "unix"
+      ],
+      "signature_count": 51,
+      "source": "converted_from_bsa_format_and_enhanced",
+      "version": "2.0.0"
+    },
+    {
+      "component": "Localytics Android SDK",
+      "description": "Signatures for Localytics Android SDK - Localytics",
+      "filename": "bsa-localytics-sdk.json",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "magiconair/properties",
+      "description": "Signatures for magiconair/properties - Frank Schroder",
+      "filename": "bsa-magiconair-properties.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "TouchImageView",
+      "description": "Signatures for TouchImageView - MikeOrtiz",
+      "filename": "bsa-mikeortiz-touchimageview.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Kerberos libraries",
+      "description": "Signatures for Kerberos libraries - MIT",
+      "filename": "bsa-mit-krb5.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "NanoHttpd - HTTP server",
+      "description": "Signatures for NanoHttpd - HTTP server - NanoHttpd",
+      "filename": "bsa-nanohttpd-nanohttpd.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Netinsight Sye Tools",
+      "description": "Signatures for Netinsight Sye Tools - Netinsight",
+      "filename": "bsa-netinsight-sye.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Netty project",
+      "description": "Signatures for Netty project - Netty",
+      "filename": "bsa-netty-netty.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "NOSTRA13 Android Universal Image Loader",
+      "description": "Signatures for NOSTRA13 Android Universal Image Loader - NOSTRA13",
+      "filename": "bsa-nostra13-universalimageloader.json",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "signature_count": 1,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "go-toml",
+      "description": "Signatures for go-toml - Thomas Pelletier",
+      "filename": "bsa-pelletier-gotoml.json",
+      "languages": [
+        "go"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "OpenSubdiv",
+      "description": "Signatures for OpenSubdiv - Pixar Animation Studios",
+      "filename": "bsa-pixar_opensubdiv.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "pkg-errors",
+      "description": "Signatures for pkg-errors - Dave Cheney",
+      "filename": "bsa-pkg-errors.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "pkg-sftp",
+      "description": "Signatures for pkg-sftp - Dave Cheney",
+      "filename": "bsa-pkg-sftp.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "SLF4J",
+      "description": "Signatures for SLF4J - QOS.ch",
+      "filename": "bsa-qos-slf4j.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "ReactiveX RxJava",
+      "description": "Signatures for ReactiveX RxJava - ReactiveX",
+      "filename": "bsa-reactivex-rxjava.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Roughike BottomBar",
+      "description": "Signatures for Roughike BottomBar - Roughike",
+      "filename": "bsa-roughike-bottombar.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Spongy Castle",
+      "description": "Signatures for Spongy Castle - rtyley",
+      "filename": "bsa-rtyley-spongycastle.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Project Lombok",
+      "description": "Signatures for Project Lombok - Lombok",
+      "filename": "bsa-rzwitserloot-lombok.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Samsung Android SDK",
+      "description": "Signatures for Samsung Android SDK - Samsung",
+      "filename": "bsa-samsung-android.json",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "SAX Parser",
+      "description": "Signatures for SAX Parser - SAX Project",
+      "filename": "bsa-sax-sax-parser.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "logrus",
+      "description": "Signatures for logrus - Simon Eskildsen",
+      "filename": "bsa-sirupsen-logrus.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Afero",
+      "description": "Signatures for Afero - Steve Francia",
+      "filename": "bsa-spf13-afero.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Cast",
+      "description": "Signatures for Cast - Steve Francia",
+      "filename": "bsa-spf13-cast.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "cobra",
+      "description": "Signatures for cobra - Steve Francia",
+      "filename": "bsa-spf13-cobra.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Jwalterweatherman",
+      "description": "Signatures for Jwalterweatherman - Steve Francia",
+      "filename": "bsa-spf13-jwalterweatherman.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Pflag",
+      "description": "Signatures for Pflag - Steve Francia",
+      "filename": "bsa-spf13-pflag.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Viper",
+      "description": "Signatures for Viper - Steve Francia",
+      "filename": "bsa-spf13-viper.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "HAHA - Headless Android Heap Analyzer",
+      "description": "Signatures for HAHA - Headless Android Heap Analyzer - Square",
+      "filename": "bsa-square-haha.json",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "JavaPoet",
+      "description": "Signatures for JavaPoet - Square",
+      "filename": "bsa-square-javapoet.json",
+      "languages": [
+        "java"
+      ],
+      "platforms": [
+        "java"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "LeakCanary",
+      "description": "Signatures for LeakCanary - Square",
+      "filename": "bsa-square-leakcanary.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "OkHttp",
+      "description": "Signatures for OkHttp - Square",
+      "filename": "bsa-square-okhttp.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Okio",
+      "description": "Signatures for Okio - Square",
+      "filename": "bsa-square-okio.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Picasso",
+      "description": "Signatures for Picasso - Square",
+      "filename": "bsa-square-picasso.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Retrofit",
+      "description": "Signatures for Retrofit - Square",
+      "filename": "bsa-square-retrofit.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 2,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "gotenv",
+      "description": "Signatures for gotenv - Alif Rachmawadi",
+      "filename": "bsa-subosito-gotenv.json",
+      "languages": [
+        "go"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Paranamer",
+      "description": "Signatures for Paranamer - Thoughtworks",
+      "filename": "bsa-thoughtworks-paranamer.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Tune MobileAppTracking Library",
+      "description": "Signatures for Tune MobileAppTracking Library - BranchMetrics",
+      "filename": "bsa-tune-androidsdk.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "MultithreadedTC framework",
+      "description": "Signatures for MultithreadedTC framework - University of Maryland",
+      "filename": "bsa-umd-multithreadedtc.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "UTF8 CPP",
+      "description": "Signatures for UTF8 CPP - Nemanja Trifunovic",
+      "filename": "bsa-utf_cpp.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Waywardgeek Sonic Library",
+      "description": "Signatures for Waywardgeek Sonic Library - waywardgeek",
+      "filename": "bsa-waywardgeek-sonic.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "WebKit, WebCore and JSC",
+      "description": "Signatures for WebKit, WebCore and JSC - KDE",
+      "filename": "bsa-webkit.json",
+      "languages": [
+        "javascript"
+      ],
+      "platforms": [
+        "web",
+        "node"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "x264",
+      "description": "Signatures for x264 - x264 Project",
+      "filename": "bsa-x264.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 44,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "x265",
+      "description": "Signatures for x265 - x265 Project",
+      "filename": "bsa-x265.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 2,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "CImage and CImageIterator",
+      "description": "Signatures for CImage and CImageIterator - Davide Pizzolato",
+      "filename": "bsa-xdp_cximage.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Xiph LibOpus",
+      "description": "Signatures for Xiph LibOpus - Xiph.Org Foundation",
+      "filename": "bsa-xiph_libopus.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Xiph Vorbis",
+      "description": "Signatures for Xiph Vorbis - Xiph.Org Foundation",
+      "filename": "bsa-xiph_vorbis.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "converted_from_bsa_format",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Bugsnag",
+      "description": "Bugsnag crash reporting library",
+      "filename": "bugsnag.json",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "signature_count": 0,
+      "source": "manual",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Cairo",
+      "description": "A 2D graphics library with support for multiple output devices",
+      "filename": "cairo.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 30,
+      "source": "extracted_from_binary",
+      "version": "1.0.0"
+    },
+    {
+      "component": "CImage and CImageIterator",
+      "description": "Imported from legacy database - CImage and CImageIterator",
+      "filename": "cimage-and-cimageiterator.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "migrated_from_sqlite_db",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Core-js",
+      "description": "Standard library polyfills for JavaScript",
+      "filename": "corejs-bytecode.json",
+      "languages": [
+        "javascript"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 20,
+      "source": "hermes_bytecode_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "cURL",
+      "description": "Command line tool and library for transferring data with URLs",
+      "filename": "curl.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 30,
+      "source": "extracted_from_binary",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Dolby Audio/Video",
+      "description": "Dolby Digital (AC3), Digital Plus (EAC3), and Dolby Vision codecs",
+      "filename": "dolby.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 18,
+      "version": "unknown"
+    },
+    {
+      "component": ".NET Core Runtime",
+      "description": "Signatures for .NET Core Runtime",
+      "filename": "dotnet-core.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 6,
+      "source": "source_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Expat",
+      "description": "XML parsing C library",
+      "filename": "expat.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 26,
+      "source": "extracted",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Facebook Android SDK",
+      "description": "Imported from legacy database - Facebook Android SDK",
+      "filename": "facebook-android-sdk.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "migrated_from_sqlite_db",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Fast C++ logging - spdlog",
+      "description": "Imported from legacy database - Fast C++ logging - spdlog",
+      "filename": "fast-c++-logging---spdlog.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "migrated_from_sqlite_db",
+      "version": "1.0.0"
+    },
+    {
+      "component": "FasterXML Jackson",
+      "description": "Imported from legacy database - FasterXML Jackson",
+      "filename": "fasterxml-jackson.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "migrated_from_sqlite_db",
+      "version": "1.0.0"
+    },
+    {
+      "component": "FDK-AAC",
+      "description": "Fraunhofer FDK AAC codec library",
+      "filename": "fdk-aac.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "manual_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "FFmpeg-Codecs",
+      "description": "FFmpeg embedded codec signatures",
+      "filename": "ffmpeg-codecs.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "ffmpeg_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "FFmpeg",
+      "description": "FFmpeg multimedia framework - enhanced signature covering versions 4.4 to 6.0",
+      "filename": "ffmpeg-enhanced.json",
+      "languages": [],
+      "platforms": [],
+      "signature_count": 72,
+      "source": "Multi-version analysis (ffmpeg binary, libffmpeg.so, source code)",
+      "version": "2.0.0"
+    },
+    {
+      "component": "FFmpeg-RubberBand",
+      "description": "RubberBand audio time-stretching and pitch-shifting library",
+      "filename": "ffmpeg-rubberband.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 1,
+      "source": "extracted",
+      "version": "unknown"
+    },
+    {
+      "component": "FFmpeg-SoXR",
+      "description": "SoX Resampler library",
+      "filename": "ffmpeg-soxr.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 1,
+      "source": "extracted",
+      "version": "unknown"
+    },
+    {
+      "component": "FFmpeg-Speex",
+      "description": "Speex audio codec",
+      "filename": "ffmpeg-speex.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "extracted",
+      "version": "unknown"
+    },
+    {
+      "component": "FFmpeg-SwResample",
+      "description": "FFmpeg audio resampling library",
+      "filename": "ffmpeg-swresample.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "extracted",
+      "version": "unknown"
+    },
+    {
+      "component": "FFmpeg-SwScale",
+      "description": "FFmpeg video scaling and pixel format conversion library",
+      "filename": "ffmpeg-swscale.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "extracted",
+      "version": "unknown"
+    },
+    {
+      "component": "FFmpeg-Theora",
+      "description": "Theora video codec",
+      "filename": "ffmpeg-theora.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "extracted",
+      "version": "unknown"
+    },
+    {
+      "component": "Firebase Crashlytics",
+      "description": "Firebase Crashlytics crash reporting",
+      "filename": "firebase-crashlytics.json",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "signature_count": 0,
+      "source": "manual",
+      "version": "1.0.0"
+    },
+    {
+      "component": "FLAC",
+      "description": "Free Lossless Audio Codec",
+      "filename": "flac.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "manual_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "FreeType",
+      "description": "Software library to render fonts",
+      "filename": "freetype.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "linux",
+        "windows",
+        "macos",
+        "android",
+        "ios"
+      ],
+      "signature_count": 4,
+      "source": "extracted from APK analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "GLib",
+      "description": "GLib low-level core library",
+      "filename": "glib.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 30,
+      "version": "2.0.0-2.x"
+    },
+    {
+      "component": "GNU MP",
+      "description": "GNU Multiple Precision Arithmetic Library",
+      "filename": "gmp.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows",
+        "unix"
+      ],
+      "signature_count": 45,
+      "source": "manual_extraction",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Google GData Objective-C",
+      "description": "Google Data APIs Objective-C Client Library",
+      "filename": "google-gdata-objectivec.json",
+      "languages": [
+        "objective-c"
+      ],
+      "platforms": [
+        "ios",
+        "macos"
+      ],
+      "signature_count": 0,
+      "source": "manual",
+      "version": "1.0.0"
+    },
+    {
+      "component": "GStreamer",
+      "description": "GStreamer multimedia framework",
+      "filename": "gstreamer.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 95,
+      "version": "1.0.0-1.x"
+    },
+    {
+      "component": "GTM HTTP Fetcher",
+      "description": "Google Toolbox for Mac HTTP Fetcher - HTTP networking library for iOS/macOS",
+      "filename": "gtm-http-fetcher.json",
+      "languages": [
+        "objective-c"
+      ],
+      "platforms": [
+        "ios",
+        "macos"
+      ],
+      "signature_count": 1,
+      "source": "manual",
+      "version": "1.0.0"
+    },
+    {
+      "component": "H.264/AVC",
+      "description": "H.264/AVC video codec",
+      "filename": "h264.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 14,
+      "version": "unknown"
+    },
+    {
+      "component": "H.265/HEVC",
+      "description": "H.265/HEVC video codec",
+      "filename": "h265.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 11,
+      "version": "unknown"
+    },
+    {
+      "component": "Hermes React Native",
+      "description": "JavaScript engine optimized for React Native",
+      "filename": "hermes.json",
+      "languages": [
+        "javascript",
+        "native"
+      ],
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "signature_count": 25,
+      "source": "binary_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Highway",
+      "description": "Google Highway - Efficient and portable SIMD library",
+      "filename": "highway.json",
+      "languages": [
+        "c++"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows",
+        "unix"
+      ],
+      "signature_count": 35,
+      "source": "manual_extraction",
+      "version": "1.0.0"
+    },
+    {
+      "component": "ICU (International Components for Unicode)",
+      "description": "Mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support",
+      "filename": "icu.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "linux",
+        "windows",
+        "macos",
+        "android",
+        "ios"
+      ],
+      "signature_count": 0,
+      "source": "extracted from APK analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Jetpack Compose",
+      "description": "Jetpack Compose - Android's modern toolkit for building native UI",
+      "filename": "jetpack-compose.json",
+      "languages": [
+        "kotlin",
+        "java"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "signature_count": 0,
+      "source": "manual",
+      "version": "1.0.0"
+    },
+    {
+      "component": "jQuery",
+      "description": "jQuery JavaScript Library",
+      "filename": "jquery.json",
+      "languages": [
+        "javascript"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "manual",
+      "version": "1.0.0"
+    },
+    {
+      "component": "LAME",
+      "description": "LAME MP3 Encoder",
+      "filename": "lame.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "manual_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Little CMS 2",
+      "description": "Little Color Management System - A small-footprint color management engine",
+      "filename": "lcms2.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows",
+        "unix"
+      ],
+      "signature_count": 40,
+      "source": "manual_extraction",
+      "version": "1.0.0"
+    },
+    {
+      "component": "libaom",
+      "description": "AV1 video codec library",
+      "filename": "libaom.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "manual_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "libcap",
+      "description": "POSIX capabilities library",
+      "filename": "libcap.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 14,
+      "source": "extracted",
+      "version": "1.0.0"
+    },
+    {
+      "component": "libjpeg",
+      "description": "Enhanced signatures for libjpeg - Independent JPEG Group",
+      "filename": "libjpeg-enhanced.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 1,
+      "source": "manual_enhanced",
+      "version": "1.0.0"
+    },
+    {
+      "component": "libpng",
+      "description": "PNG reference library",
+      "filename": "libpng.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "manual",
+      "version": "1.0.0"
+    },
+    {
+      "component": "libvpx",
+      "description": "VP8/VP9 video codec library",
+      "filename": "libvpx.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "manual_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "libxml2",
+      "description": "XML C parser and toolkit",
+      "filename": "libxml2.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "manual",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Lodash",
+      "description": "A modern JavaScript utility library",
+      "filename": "lodash-bytecode.json",
+      "languages": [
+        "javascript"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 25,
+      "source": "hermes_bytecode_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "LZ4",
+      "description": "Fast compression algorithm library",
+      "filename": "lz4.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 25,
+      "source": "extracted",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Metro Bundler",
+      "description": "JavaScript bundler for React Native",
+      "filename": "metro-bytecode.json",
+      "languages": [
+        "javascript"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 20,
+      "source": "hermes_bytecode_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "OkHttp",
+      "description": "An HTTP & HTTP/2 client for Android and Java applications",
+      "filename": "okhttp.json",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "platforms": [
+        "android",
+        "java"
+      ],
+      "signature_count": 1,
+      "source": "extracted from APK analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "ONNX-Model-Architectures",
+      "description": "Common model architectures in ONNX format",
+      "filename": "onnx-architectures.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 23,
+      "version": "*"
+    },
+    {
+      "component": "PyTorch-ONNX",
+      "description": "PyTorch models exported to ONNX format",
+      "filename": "onnx-pytorch.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 15,
+      "version": "*"
+    },
+    {
+      "component": "ONNX-Security-Risks",
+      "description": "Security risk patterns in ONNX models",
+      "filename": "onnx-security.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 16,
+      "version": "1.0.0"
+    },
+    {
+      "component": "TensorFlow-ONNX",
+      "description": "TensorFlow models exported to ONNX format",
+      "filename": "onnx-tensorflow.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 15,
+      "version": "*"
+    },
+    {
+      "component": "OpenCV",
+      "description": "Open Source Computer Vision Library",
+      "filename": "opencv.json",
+      "languages": [
+        "native"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 2,
+      "source": "binary_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "OpenSSL",
+      "description": "OpenSSL cryptography and SSL/TLS toolkit",
+      "filename": "openssl.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 135,
+      "version": "1.0.0-3.0.x"
+    },
+    {
+      "component": "Opus",
+      "description": "Open, royalty-free, highly versatile audio codec",
+      "filename": "opus.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 30,
+      "source": "extracted_from_binary",
+      "version": "1.0.0"
+    },
+    {
+      "component": "PCRE2",
+      "description": "Perl Compatible Regular Expressions library version 2",
+      "filename": "pcre2.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows",
+        "unix"
+      ],
+      "signature_count": 40,
+      "source": "manual_extraction",
+      "version": "1.0.0"
+    },
+    {
+      "component": "PhotoView",
+      "description": "Imported from legacy database - PhotoView",
+      "filename": "photoview.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "migrated_from_sqlite_db",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Picasso",
+      "description": "Imported from legacy database - Picasso",
+      "filename": "picasso.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "migrated_from_sqlite_db",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Malformed-Pickle-File",
+      "description": "Detected malformed or corrupted pickle file structure",
+      "filename": "pickle-malformed.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 6,
+      "version": "1.0.0"
+    },
+    {
+      "component": "Pickle-Malicious-Patterns",
+      "description": "Signatures for detecting malicious patterns in pickle files",
+      "filename": "pickle-malicious.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 29,
+      "version": "1.0.0"
+    },
+    {
+      "component": "pkg-errors",
+      "description": "Imported from legacy database - pkg-errors",
+      "filename": "pkg-errors.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "migrated_from_sqlite_db",
+      "version": "1.0.0"
+    },
+    {
+      "component": "pkg-sftp",
+      "description": "Imported from legacy database - pkg-sftp",
+      "filename": "pkg-sftp.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "migrated_from_sqlite_db",
+      "version": "1.0.0"
+    },
+    {
+      "component": "Prop-Types",
+      "description": "Runtime type checking for React props",
+      "filename": "proptypes-bytecode.json",
+      "languages": [
+        "javascript"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 18,
+      "source": "hermes_bytecode_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "PyTorch-Architectures",
+      "description": "Common PyTorch model architectures",
+      "filename": "pytorch-architectures.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 21,
+      "version": "1.0"
+    },
+    {
+      "component": "PyTorch-Native",
+      "description": "PyTorch native model format (.pt, .pth)",
+      "filename": "pytorch-native.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 24,
+      "version": "2.0"
+    },
+    {
+      "component": "PyTorch",
+      "description": "PyTorch deep learning framework",
+      "filename": "pytorch.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 34,
+      "version": "*"
+    },
+    {
+      "component": "Qt5 Framework",
+      "description": "Qt5 cross-platform application framework",
+      "filename": "qt5.json",
+      "languages": [
+        "native"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 13,
+      "source": "binary_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "SafeTensors",
+      "description": "Secure tensor serialization format",
+      "filename": "safetensors-format.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 10,
+      "version": "1.0"
+    },
+    {
+      "component": "SafeTensors-PyTorch",
+      "description": "PyTorch models in SafeTensors format",
+      "filename": "safetensors-pytorch.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 19,
+      "version": "2.0"
+    },
+    {
+      "component": "SafeTensors-Security",
+      "description": "Security patterns for SafeTensors format validation and tampering detection",
+      "filename": "safetensors-security.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 20,
+      "version": "1.0"
+    },
+    {
+      "component": "SafeTensors-Transformers",
+      "description": "Hugging Face Transformers models in SafeTensors format",
+      "filename": "safetensors-transformers.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 31,
+      "version": "4.0"
+    },
+    {
+      "component": "scikit-learn",
+      "description": "Scikit-learn machine learning library",
+      "filename": "sklearn.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 33,
+      "version": "*"
+    },
+    {
+      "component": "SQLite",
+      "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "filename": "sqlite.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "linux",
+        "windows",
+        "macos",
+        "android",
+        "ios"
+      ],
+      "signature_count": 3,
+      "source": "extracted from APK analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "TensorFlow Lite",
+      "description": "TensorFlow Lite - Machine Learning framework for mobile and embedded devices",
+      "filename": "tensorflow-lite.json",
+      "languages": [
+        "c++"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "linux"
+      ],
+      "signature_count": 3,
+      "source": "manual",
+      "version": "1.0.0"
+    },
+    {
+      "component": "TensorFlow-Native",
+      "description": "TensorFlow native model formats (.pb, .h5)",
+      "filename": "tensorflow-native.json",
+      "languages": [
+        "python"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 27,
+      "version": "2.0"
+    },
+    {
+      "component": "TouchImageView",
+      "description": "Imported from legacy database - TouchImageView",
+      "filename": "touchimageview.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "migrated_from_sqlite_db",
+      "version": "1.0.0"
+    },
+    {
+      "component": "WebKit",
+      "description": "Open source web browser engine",
+      "filename": "webkit.json",
+      "languages": [
+        "c++",
+        "objective-c"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "android",
+        "ios"
+      ],
+      "signature_count": 4,
+      "source": "extracted from APK analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "WebP",
+      "description": "Image compression library",
+      "filename": "webp.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 26,
+      "source": "extracted",
+      "version": "1.0.0"
+    },
+    {
+      "component": "wolfSSL",
+      "description": "Signatures for wolfSSL",
+      "filename": "wolfssl.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 63,
+      "source": "source_analysis",
+      "version": "1.0.0"
+    },
+    {
+      "component": "XGBoost",
+      "description": "Scalable and flexible gradient boosting library",
+      "filename": "xgboost.json",
+      "languages": [
+        "python",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 14,
+      "version": "*"
+    },
+    {
+      "component": "Xiph Vorbis",
+      "description": "Imported from legacy database - Xiph Vorbis",
+      "filename": "xiph-vorbis.json",
+      "languages": [
+        "unknown"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 0,
+      "source": "migrated_from_sqlite_db",
+      "version": "1.0.0"
+    },
+    {
+      "component": "XZ Utils",
+      "description": "LZMA compression library",
+      "filename": "xz-utils.json",
+      "languages": [
+        "c",
+        "c++"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 13,
+      "source": "extracted",
+      "version": "1.0.0"
+    },
+    {
+      "component": "zlib",
+      "description": "zlib compression library",
+      "filename": "zlib.json",
+      "languages": [
+        "c"
+      ],
+      "platforms": [
+        "all"
+      ],
+      "signature_count": 1,
+      "source": "manual",
+      "version": "1.0.0"
+    }
+  ],
+  "signature_format_version": "1.0",
+  "source": "Generated from packaged JSON signatures",
+  "total_signature_files": 198,
+  "total_signatures": 1936,
+  "version": "1.3.1"
+}

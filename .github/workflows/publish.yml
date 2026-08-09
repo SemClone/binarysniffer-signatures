@@ -1,0 +1,39 @@
+name: Publish Signatures
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"  # Mondays 06:00 UTC
+  push:
+    tags:
+      - "signatures-*"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-signatures
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install signing dependency
+        run: pip install "cryptography>=42.0.0"
+      - name: Build and sign the bundle
+        env:
+          BINARYSNIFFER_SIGNING_KEY: ${{ secrets.BINARYSNIFFER_SIGNING_KEY }}
+        run: |
+          TAG="signatures-$(date -u +%Y.%m.%d)-${GITHUB_RUN_NUMBER}"
+          echo "TAG=$TAG" >> "$GITHUB_ENV"
+          python build.py "$TAG"
+          ls -la dist
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$TAG" dist/* --title "Signatures $TAG" --notes "Signed signature bundle for binarysniffer. Verify with the trusted Ed25519 key."
