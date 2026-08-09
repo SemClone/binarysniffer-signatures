@@ -25,15 +25,20 @@ jobs:
           python-version: "3.13"
       - name: Install signing dependency
         run: pip install "cryptography>=42.0.0"
-      - name: Build and sign the bundle
+      - name: Build and sign the bundle (fixed name for a rolling release)
         env:
           BINARYSNIFFER_SIGNING_KEY: ${{ secrets.BINARYSNIFFER_SIGNING_KEY }}
         run: |
-          TAG="signatures-$(date -u +%Y.%m.%d)-${GITHUB_RUN_NUMBER}"
-          echo "TAG=$TAG" >> "$GITHUB_ENV"
-          python build.py "$TAG"
+          python build.py signatures
           ls -la dist
-      - name: Publish release
+      - name: Publish/refresh the rolling 'latest' release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "$TAG" dist/* --title "Signatures $TAG" --notes "Signed signature bundle for binarysniffer. Verify with the trusted Ed25519 key."
+        run: |
+          # Overwrite a single rolling release so the Releases list stays clean
+          # and the client always finds one bundle. Provenance lives in the
+          # release's updated timestamp and the manifest inside the bundle.
+          gh release delete latest --yes --cleanup-tag 2>/dev/null || true
+          gh release create latest dist/signatures.zip dist/signatures.zip.sig \
+            --title "Signatures (latest)" --latest \
+            --notes "Rolling signed signature bundle. Verify with the trusted Ed25519 key; updated $(date -u +%Y-%m-%dT%H:%MZ)."
