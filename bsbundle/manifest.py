@@ -14,7 +14,7 @@ from __future__ import annotations
 
 import hashlib
 import json
-from pathlib import Path
+from pathlib import Path, PurePosixPath, PureWindowsPath
 from typing import Any
 
 MANIFEST_NAME = "manifest.json"
@@ -30,13 +30,49 @@ def file_sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def validate_relative_name(name: str) -> None:
+    """Reject a manifest key or bundle member that could escape its destination.
+
+    Nested names are allowed, because signature data ships under ``licenses/`` and
+    ``hashes/`` as well as at the top level. Anything that could write outside the
+    destination is not: parent-directory components, absolute paths, Windows drives
+    and UNC prefixes, and backslash separators, which POSIX treats as ordinary
+    filename characters but Windows resolves as separators.
+
+    The canonical form is also required. ``a//b.json`` resolves inside the
+    destination, so it is not traversal, but it would not match its manifest key and
+    would break the bundle's byte-for-byte reproducibility.
+
+    Shared by every manifest consumer so the rule cannot drift between them.
+    """
+    if not name.endswith(".json"):
+        raise ValueError(f"unsafe signature filename: {name}")
+    if "\\" in name:
+        raise ValueError(f"unsafe signature filename: {name}")
+    pure = PurePosixPath(name)
+    if pure.as_posix() != name:
+        raise ValueError(f"unsafe signature filename: {name}")
+    if pure.is_absolute() or name.startswith("/"):
+        raise ValueError(f"unsafe signature filename: {name}")
+    if any(part in ("..", "") for part in pure.parts):
+        raise ValueError(f"unsafe signature filename: {name}")
+    if PureWindowsPath(name).drive or PureWindowsPath(name).is_absolute():
+        raise ValueError(f"unsafe signature filename: {name}")
+
+
 def build_files_index(data_dir: Path) -> dict[str, dict[str, Any]]:
-    """Map each signature JSON (excluding the manifest) to its sha256 and size."""
+    """Map each signature JSON (excluding the manifest) to its sha256 and size.
+
+    Walks subdirectories, so data shipped under ``licenses/`` and ``hashes/`` is
+    covered like any top-level file. Keys are POSIX paths relative to ``data_dir``
+    (``licenses/spdx.json``), which is also how they appear as bundle members.
+    """
     index: dict[str, dict[str, Any]] = {}
-    for path in sorted(data_dir.glob("*.json")):
-        if path.name == MANIFEST_NAME:
+    for path in sorted(data_dir.rglob("*.json")):
+        rel = path.relative_to(data_dir)
+        if rel.as_posix() == MANIFEST_NAME:
             continue
-        index[path.name] = {"sha256": file_sha256(path), "size": path.stat().st_size}
+        index[rel.as_posix()] = {"sha256": file_sha256(path), "size": path.stat().st_size}
     return index
 
 

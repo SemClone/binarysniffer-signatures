@@ -20,9 +20,9 @@ from __future__ import annotations
 import base64
 import json
 import zipfile
-from pathlib import Path
+from pathlib import Path, PurePosixPath, PureWindowsPath
 
-from .manifest import MANIFEST_NAME, verify_directory, write_manifest
+from .manifest import MANIFEST_NAME, validate_relative_name, verify_directory, write_manifest
 
 # Fixed timestamp for deterministic archives (zip epoch minimum).
 _ZIP_DATE_TIME = (1980, 1, 1, 0, 0, 0)
@@ -45,16 +45,18 @@ def _ed25519():
 def build_bundle(data_dir: Path, out_zip: Path) -> Path:
     """Build a deterministic zip of the signature set (regenerating the manifest).
 
-    Only top-level ``*.json`` files are included, matching what the manifest
-    covers; entries are sorted and given a fixed timestamp so the archive bytes
-    are reproducible for a given input.
+    Every ``*.json`` under ``data_dir`` is included, subdirectories and all, so the
+    bundle carries the same set the manifest covers. Member names are POSIX paths
+    relative to ``data_dir``; entries are sorted and given a fixed timestamp so the
+    archive bytes are reproducible for a given input.
     """
     write_manifest(data_dir)
     out_zip.parent.mkdir(parents=True, exist_ok=True)
-    members = sorted(p for p in data_dir.glob("*.json"))
+    members = sorted(data_dir.rglob("*.json"))
     with zipfile.ZipFile(out_zip, "w", zipfile.ZIP_DEFLATED) as zf:
         for path in members:
-            info = zipfile.ZipInfo(path.name, date_time=_ZIP_DATE_TIME)
+            name = path.relative_to(data_dir).as_posix()
+            info = zipfile.ZipInfo(name, date_time=_ZIP_DATE_TIME)
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o644 << 16
             zf.writestr(info, path.read_bytes())
@@ -115,6 +117,14 @@ def verify_bundle_signature(zip_path: Path, sig_path: Path, public_keys_b64: lis
     return verify_bytes(zip_path.read_bytes(), signature_b64, public_keys_b64)
 
 
+def _check_member_name(name: str) -> None:
+    """Bundle-member wrapper around the shared manifest-name guard."""
+    try:
+        validate_relative_name(name)
+    except ValueError as exc:
+        raise ValueError(f"unsafe bundle member: {name}") from exc
+
+
 def extract_and_verify(zip_path: Path, dest_dir: Path) -> list[str]:
     """Extract a bundle into ``dest_dir`` and verify files against its manifest.
 
@@ -126,8 +136,7 @@ def extract_and_verify(zip_path: Path, dest_dir: Path) -> list[str]:
     with zipfile.ZipFile(zip_path) as zf:
         names = zf.namelist()
         for name in names:
-            if Path(name).name != name or not name.endswith(".json"):
-                raise ValueError(f"unsafe bundle member: {name}")
+            _check_member_name(name)
         if MANIFEST_NAME not in names:
             raise ValueError("bundle has no manifest")
         zf.extractall(dest_dir)
