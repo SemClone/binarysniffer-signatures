@@ -44,10 +44,6 @@
       "confidence": 0.9
     },
     {
-      "pattern": "Conv2D",
-      "confidence": 0.85
-    },
-    {
       "pattern": "MatMul",
       "confidence": 0.85
     },
@@ -77,10 +73,6 @@
     },
     {
       "pattern": "dense",
-      "confidence": 0.85
-    },
-    {
-      "pattern": "conv2d",
       "confidence": 0.85
     },
     {

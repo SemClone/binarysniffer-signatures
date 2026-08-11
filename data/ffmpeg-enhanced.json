@@ -25,11 +25,6 @@
       "confidence": 0.8
     },
     {
-      "pattern": "CLIENT_TRAFFIC_SECRET_0",
-      "type": "string",
-      "confidence": 0.8
-    },
-    {
       "pattern": "DatumE_AiryModified1849",
       "type": "string",
       "confidence": 0.8

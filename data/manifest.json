@@ -538,8 +538,8 @@
       "size": 660
     },
     "ffmpeg-enhanced.json": {
-      "sha256": "c914c8aa7cf1d8f71b81bfc6f0bb8d11b2b7aa77c4c16d18918b23c4438dc7db",
-      "size": 8910
+      "sha256": "13187f06608fc02d98fbd1ce46c57c62f23b3df56063d349ebce26690354b003",
+      "size": 8806
     },
     "ffmpeg-rubberband.json": {
       "sha256": "c518b750727836eea8a111cdff36349a3e7694543f187293d10f7a3f53c77578",
@@ -782,8 +782,8 @@
       "size": 1327
     },
     "tensorflow-native.json": {
-      "sha256": "58c6da361e8b44c4f15cb0aad47bb5ae7785c1e7fccf3b2d033678ebe07fd520",
-      "size": 2244
+      "sha256": "91001cf2ca74280a5c433195fffe05aed70a556730fb4ab958e30324d95acbc0",
+      "size": 2115
     },
     "touchimageview.json": {
       "sha256": "0dfad74ea2c598b3bb11391ecce38e4ecadd8b597a831334aec7cb631815f3eb",
@@ -798,12 +798,12 @@
       "size": 3844
     },
     "wolfssl.json": {
-      "sha256": "e56353a60c47b8a1333f03e492358c757819cac59d29bb94f9f0388c6355cd03",
-      "size": 14609
+      "sha256": "1308111beab37e63712fee11f54e1766e49e194b3992c93556663871994d6651",
+      "size": 10560
     },
     "xgboost.json": {
-      "sha256": "a0a0a9bf13012c59047624ba3cefa7f4aa282c628a6de873b6bddcca2a469308",
-      "size": 1396
+      "sha256": "d8a0436cdc8dbba8322161c455013e8db48c945189711a55b50e30a0af72e746",
+      "size": 1319
     },
     "xiph-vorbis.json": {
       "sha256": "ee0bb1abbf8fc3ec67beb21347b727482450a62b66633dc88ebb680987a1f948",
