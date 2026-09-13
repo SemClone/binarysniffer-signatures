@@ -1,0 +1,719 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://semclone.github.io/binarysniffer/schemas/rules-2.0.json",
+  "title": "binarysniffer component rule file, format 2.0",
+  "description": "One file per component. The kind vocabulary, roles, clauses and provenance fields are FROZEN for format 2.0: additions are MINOR bumps declared via `requires`; renames wait for MAJOR 3. Free-form extension keys are prefixed x- and ignored by the engine.",
+  "type": "object",
+  "properties": {
+    "format": {
+      "const": "binarysniffer-rules/2.0"
+    },
+    "class": {
+      "enum": [
+        "component"
+      ]
+    },
+    "requires": {
+      "type": "object",
+      "properties": {
+        "client": {
+          "type": "string",
+          "pattern": "^(>=|<=|>|<|=)?\\d+\\.\\d+$"
+        }
+      },
+      "required": [
+        "client"
+      ],
+      "additionalProperties": false
+    },
+    "component": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/componentId"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "licenses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "versions": {
+                "$ref": "#/$defs/constraint"
+              },
+              "license": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "versions",
+              "license"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "purl": {
+          "type": "string"
+        },
+        "cpe": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "family": {
+          "$ref": "#/$defs/familyId"
+        },
+        "project": {
+          "type": "string"
+        },
+        "same_project": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/componentId"
+          }
+        },
+        "vendors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/componentId"
+          }
+        },
+        "status": {
+          "enum": [
+            "active",
+            "placeholder",
+            "retired"
+          ]
+        },
+        "superseded_by": {
+          "$ref": "#/$defs/componentId"
+        },
+        "merged_into": {
+          "$ref": "#/$defs/componentId"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "versions": {
+      "type": "object",
+      "properties": {
+        "scheme": {
+          "enum": [
+            "generic",
+            "semver",
+            "npm",
+            "pypi",
+            "maven",
+            "golang",
+            "deb",
+            "rpm",
+            "openssl-legacy"
+          ]
+        },
+        "known": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "scheme",
+        "known"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "maxProperties": 48,
+      "propertyNames": {
+        "pattern": "^[A-Za-z0-9._-]+$"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/evidenceSet"
+      }
+    },
+    "rules": {
+      "type": "array",
+      "maxItems": 64,
+      "items": {
+        "$ref": "#/$defs/rule"
+      }
+    },
+    "family_exclusions": {
+      "type": "boolean",
+      "description": "false opts this member out of the implicit sibling exclusions (3.6 invariant 2); requires family_exclusions_reason."
+    },
+    "family_exclusions_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "description": "Written by tooling, never by hand: the source object shape for traces (3.13).",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "trust": {
+          "enum": [
+            "vendor",
+            "local"
+          ]
+        },
+        "file": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "format",
+    "requires",
+    "class",
+    "component"
+  ],
+  "patternProperties": {
+    "^x-": {}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "componentId": {
+      "type": "string",
+      "pattern": "^(?:[a-z0-9-]+/)?[a-z]+:[A-Za-z0-9._+-]+(?:/[A-Za-z0-9._+-]+)*$"
+    },
+    "familyId": {
+      "type": "string",
+      "pattern": "^(?:[a-z0-9-]+/)?[a-z0-9-]+(?:/[a-z0-9-]+)*$"
+    },
+    "constraint": {
+      "type": "string",
+      "pattern": "^(>=|<=|>|<|=|!=)?[^|]+(\\|(>=|<=|>|<|=|!=)?[^|]+)*$"
+    },
+    "kind": {
+      "description": "The CLOSED kind vocabulary (3.1). bytes.pattern is reserved and rejected by a 2.0 client; additions arrive as MINOR bumps with a requires marker.",
+      "enum": [
+        "declared.cargo",
+        "declared.dotnet_assemblyref",
+        "declared.go_buildinfo",
+        "declared.package_json",
+        "declared.pe_version",
+        "declared.pom",
+        "dex.class",
+        "dex.method",
+        "dex.string",
+        "dotnet.string",
+        "dotnet.type",
+        "file.name",
+        "file.path",
+        "hermes.function",
+        "hermes.string",
+        "jvm.class",
+        "jvm.package",
+        "jvm.ref",
+        "jvm.string",
+        "legacy",
+        "lib.needed",
+        "lib.soname",
+        "magic",
+        "model.global",
+        "model.op",
+        "model.tensor",
+        "path.source",
+        "pickle.opcode",
+        "section.digest",
+        "section.name",
+        "source.identifier",
+        "source.string",
+        "string.any",
+        "string.comment",
+        "string.data",
+        "string.rodata",
+        "symbol.export",
+        "symbol.import",
+        "symbol.local",
+        "symbol.namespace",
+        "symbol.qualified",
+        "symbol.version_def",
+        "symbol.version_need",
+        "token.dex.string",
+        "token.dotnet.string",
+        "token.jvm.string",
+        "token.path.source",
+        "token.source.string",
+        "token.string.any",
+        "token.string.comment",
+        "token.string.data",
+        "token.string.rodata"
+      ]
+    },
+    "setRef": {
+      "type": "string",
+      "pattern": "^[^#]+#[A-Za-z0-9._-]+$"
+    },
+    "perValueAttrs": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "$ref": "#/$defs/constraint"
+        }
+      },
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "description": "Measurements, never a stored weight (6.6). The corpus stamp, F, kind priors, demangler and scheme enumeration live once in the bundle manifest.",
+      "properties": {
+        "method": {
+          "enum": [
+            "export-table",
+            "banner",
+            "rodata",
+            "soname",
+            "version-def",
+            "path",
+            "prefix",
+            "lattice",
+            "manual"
+          ]
+        },
+        "family_df": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "release_coverage": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "consumer_survival": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "owner": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/componentId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "attributed_occurrences": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "observed_in": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          }
+        },
+        "review": {
+          "type": "object",
+          "properties": {
+            "by": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "note": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "method"
+      ],
+      "additionalProperties": false
+    },
+    "evidenceSet": {
+      "type": "object",
+      "properties": {
+        "kinds": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/kind"
+          }
+        },
+        "match": {
+          "enum": [
+            "exact",
+            "prefix",
+            "token",
+            "regex"
+          ]
+        },
+        "values": {
+          "oneOf": [
+            {
+              "type": "array",
+              "maxItems": 20000,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            {
+              "type": "object",
+              "maxProperties": 20000,
+              "additionalProperties": {
+                "$ref": "#/$defs/perValueAttrs"
+              },
+              "propertyNames": {
+                "minLength": 1
+              }
+            }
+          ]
+        },
+        "regex": {
+          "type": "string"
+        },
+        "literal": {
+          "type": "string",
+          "minLength": 1
+        },
+        "examples": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "min_hits": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "case": {
+          "enum": [
+            "sensitive",
+            "insensitive"
+          ]
+        },
+        "distinguishing": {
+          "type": "boolean"
+        },
+        "shared_with_family": {
+          "type": "boolean"
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        }
+      },
+      "required": [
+        "kinds",
+        "match",
+        "provenance"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "match": {
+                "const": "regex"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "regex",
+              "literal",
+              "examples"
+            ],
+            "not": {
+              "required": [
+                "values"
+              ]
+            }
+          },
+          "else": {
+            "required": [
+              "values"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "regex"
+                  ]
+                },
+                {
+                  "required": [
+                    "literal"
+                  ]
+                },
+                {
+                  "required": [
+                    "examples"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "clause": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "has": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "has"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "count": {
+              "type": "object",
+              "properties": {
+                "set": {
+                  "type": "string"
+                },
+                "min": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "min_fraction": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 1
+                }
+              },
+              "required": [
+                "set"
+              ],
+              "oneOf": [
+                {
+                  "required": [
+                    "min"
+                  ]
+                },
+                {
+                  "required": [
+                    "min_fraction"
+                  ]
+                }
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "count"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ref": {
+              "$ref": "#/$defs/setRef"
+            }
+          },
+          "required": [
+            "ref"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "rule": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9._-]+$"
+        },
+        "role": {
+          "enum": [
+            "anchor",
+            "corroborate",
+            "exclude",
+            "version"
+          ]
+        },
+        "when": {
+          "$ref": "#/$defs/clause"
+        },
+        "assert": {
+          "type": "object",
+          "properties": {
+            "version": {
+              "oneOf": [
+                {
+                  "const": "from_values"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "capture": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "precision": {
+                      "enum": [
+                        "exact",
+                        "range"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "capture",
+                    "precision"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            }
+          },
+          "required": [
+            "version"
+          ],
+          "additionalProperties": false
+        },
+        "unless": {
+          "$ref": "#/$defs/clause"
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "role",
+        "when"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "role": {
+                "const": "version"
+              }
+            },
+            "required": [
+              "role"
+            ]
+          },
+          "then": {
+            "required": [
+              "assert"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "assert"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "role": {
+                "enum": [
+                  "anchor",
+                  "corroborate",
+                  "version"
+                ]
+              }
+            },
+            "required": [
+              "role"
+            ]
+          },
+          "then": {
+            "properties": {
+              "when": {
+                "not": {
+                  "required": [
+                    "ref"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "family_exclusions": {
+            "const": false
+          }
+        },
+        "required": [
+          "family_exclusions"
+        ]
+      },
+      "then": {
+        "required": [
+          "family_exclusions_reason"
+        ]
+      }
+    }
+  ]
+}

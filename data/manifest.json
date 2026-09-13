@@ -777,6 +777,14 @@
       "sha256": "e0754e91af3a5d1f9219b861812d86054cfbad21032e9189163e8454c12c0e0e",
       "size": 3098
     },
+    "schemas/family-2.0.json": {
+      "sha256": "ead78d5f2a93a089205ae0d39152a67182a9f6c5333e0d70cedec331277a1797",
+      "size": 2773
+    },
+    "schemas/rules-2.0.json": {
+      "sha256": "8aa86972d5d3dcb2ba408baecdf40f3a18a90aecf729c7b01d15b1240561ca7c",
+      "size": 16167
+    },
     "sklearn.json": {
       "sha256": "1173b1cb05524461e68067c2b8ddc2d9fb91afa1687108595c73762e76138974",
       "size": 3399
