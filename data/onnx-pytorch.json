@@ -13,8 +13,10 @@
     "license": "BSD-3-Clause",
     "publisher": "Unknown"
   },
-  "confidence_threshold": 0.3,
-  "patterns": [
+  "signature_metadata": {
+    "confidence_threshold": 0.3
+  },
+  "signatures": [
     {
       "pattern": "detected_framework:pytorch",
       "confidence": 0.95

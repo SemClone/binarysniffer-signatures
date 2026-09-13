@@ -13,8 +13,10 @@
     "license": "Various",
     "publisher": "PyTorch Community"
   },
-  "confidence_threshold": 0.3,
-  "patterns": [
+  "signature_metadata": {
+    "confidence_threshold": 0.3
+  },
+  "signatures": [
     {
       "pattern": "architecture:resnet",
       "confidence": 0.85

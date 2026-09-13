@@ -13,8 +13,10 @@
     "license": "Various",
     "publisher": "Unknown"
   },
-  "confidence_threshold": 0.3,
-  "patterns": [
+  "signature_metadata": {
+    "confidence_threshold": 0.3
+  },
+  "signatures": [
     {
       "pattern": "model_architecture:resnet",
       "confidence": 0.9

@@ -3,14 +3,20 @@
     "name": "GLib",
     "version": "2.0.0-2.x",
     "category": "library",
-    "platforms": ["all"],
-    "languages": ["c"],
+    "platforms": [
+      "all"
+    ],
+    "languages": [
+      "c"
+    ],
     "description": "GLib low-level core library",
     "license": "LGPL-2.1+",
     "publisher": "GNOME Project"
   },
-  "confidence_threshold": 0.8,
-  "patterns": [
+  "signature_metadata": {
+    "confidence_threshold": 0.8
+  },
+  "signatures": [
     {
       "pattern": "g_malloc",
       "confidence": 0.95
@@ -25,27 +31,27 @@
     },
     {
       "pattern": "g_list_",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "g_hash_table_",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "g_main_loop_",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "g_object_",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "g_signal_",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "g_type_",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "GObject",
@@ -65,11 +71,11 @@
     },
     {
       "pattern": "g_warning",
-      "confidence": 0.80
+      "confidence": 0.8
     },
     {
       "pattern": "g_critical",
-      "confidence": 0.80
+      "confidence": 0.8
     },
     {
       "pattern": "g_return_if_fail",
@@ -81,7 +87,7 @@
     },
     {
       "pattern": "g_assert",
-      "confidence": 0.80
+      "confidence": 0.8
     },
     {
       "pattern": "g_slice_",
@@ -109,15 +115,15 @@
     },
     {
       "pattern": "libglib-2.0",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "libgobject-2.0",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "libgmodule-2.0",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "GLib-GObject",

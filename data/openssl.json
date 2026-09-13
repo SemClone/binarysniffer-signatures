@@ -13,8 +13,10 @@
     "license": "Apache-2.0",
     "publisher": "OpenSSL Project"
   },
-  "confidence_threshold": 0.7,
-  "patterns": [
+  "signature_metadata": {
+    "confidence_threshold": 0.7
+  },
+  "signatures": [
     {
       "id": "openssl_1",
       "type": "string_pattern",

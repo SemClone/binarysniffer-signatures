@@ -3,14 +3,20 @@
     "name": "GStreamer",
     "version": "1.0.0-1.x",
     "category": "framework",
-    "platforms": ["all"],
-    "languages": ["c"],
+    "platforms": [
+      "all"
+    ],
+    "languages": [
+      "c"
+    ],
     "description": "GStreamer multimedia framework",
     "license": "LGPL-2.1+",
     "publisher": "GStreamer Project"
   },
-  "confidence_threshold": 0.7,
-  "patterns": [
+  "signature_metadata": {
+    "confidence_threshold": 0.7
+  },
+  "signatures": [
     {
       "pattern": "gst_init",
       "confidence": 0.95
@@ -81,15 +87,15 @@
     },
     {
       "pattern": "GStreamer-",
-      "confidence": 0.80
+      "confidence": 0.8
     },
     {
       "pattern": "libgstreamer",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_plugin_",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_registry_",
@@ -101,7 +107,7 @@
     },
     {
       "pattern": "GST_DEBUG",
-      "confidence": 0.80
+      "confidence": 0.8
     },
     {
       "pattern": "gst_object_",
@@ -129,7 +135,7 @@
     },
     {
       "pattern": "GST_TYPE_",
-      "confidence": 0.80
+      "confidence": 0.8
     },
     {
       "pattern": "gst_format_",
@@ -157,163 +163,163 @@
     },
     {
       "pattern": "GstElement",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_element_message_full_with_details",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_buffer_unmap",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_buffer_pool_config_set_allocator",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_structure_get_int",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_structure_copy",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_caps_append",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_decrypt_set_property",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_structure_get_fraction",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_element_get_type",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_buffer_pool_new",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_structure_remove_field",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_pad_template_new",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_element_class_add_static_pad_template",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_amzn_decrypt_class_init",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_mini_object_ref",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_buffer_copy_into",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_structure_has_field",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_buffer_get_size",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_structure_nth_field_name",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_debug_log",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_structure_new",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_decrypt_sink_event",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_plugin_register_static",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_query_parse_caps",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_caps_intersect_full",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_decrypt_get_property",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_amzn_decrypt_init",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_decrypt_prepare_output_buffer",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_structure_get_name",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_decrypt_parse_protection_info",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_structure_get_uint",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_decrypt_transform",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_structure_get_value",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_buffer_pool_set_active",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_decrypt_before_transform",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_stream_error_quark",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_base_transform_get_type",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_pad_get_current_caps",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "gst_core_error_quark",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "GST_PERFORMANCE",

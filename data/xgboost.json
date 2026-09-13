@@ -14,8 +14,10 @@
     "license": "Apache-2.0",
     "publisher": "dmlc"
   },
-  "confidence_threshold": 0.3,
-  "patterns": [
+  "signature_metadata": {
+    "confidence_threshold": 0.3
+  },
+  "signatures": [
     {
       "pattern": "xgboost.sklearn",
       "confidence": 0.95

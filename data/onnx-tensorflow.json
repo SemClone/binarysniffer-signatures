@@ -13,8 +13,10 @@
     "license": "Apache-2.0",
     "publisher": "Unknown"
   },
-  "confidence_threshold": 0.3,
-  "patterns": [
+  "signature_metadata": {
+    "confidence_threshold": 0.3
+  },
+  "signatures": [
     {
       "pattern": "detected_framework:tensorflow",
       "confidence": 0.95

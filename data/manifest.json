@@ -26,16 +26,16 @@
   ],
   "files": {
     "aac.json": {
-      "sha256": "2803f68a96c8226f832bdb4723da2a7065f71de5a6df7ffc33ea261557bb2606",
-      "size": 1339
+      "sha256": "b161a456db589cc2c84c886f0f81cb260d2bfd68cd9f04406a521fcfbabeeb8f",
+      "size": 1398
     },
     "alsa.json": {
       "sha256": "42988919de7010f4a6d81109ca8f49f57578eb8c605153459a0ff77c71bc2970",
       "size": 6073
     },
     "av1.json": {
-      "sha256": "278cfbcc76cac6939d0fb97269d3ef1f5a5c93ebb5618596aa214e915d430a9c",
-      "size": 1200
+      "sha256": "a08b04f673b3d757694397ef77b44d0bd6616fe4ea071996a8e81e5707719663",
+      "size": 1259
     },
     "bsa-aelve_fmt.json": {
       "sha256": "6dda5e532cb184df18c783d6922cf96b1ac9d85de9c15787debfedc5202179b7",
@@ -506,8 +506,8 @@
       "size": 6972
     },
     "dolby.json": {
-      "sha256": "07defa27d8192617de7efd83739e354e7a613eaf8c86df158a05c0ee069f2e58",
-      "size": 1700
+      "sha256": "97b57661fa88e77008a404fef99c6b21b96f9f50f2c2f1c57487d894b2913e72",
+      "size": 1759
     },
     "dotnet-core.json": {
       "sha256": "3744a33fdfd5ad1bfb25b818b832326be165c61b232ff286eed5ae3ef3a6dd40",
@@ -538,8 +538,8 @@
       "size": 660
     },
     "ffmpeg-enhanced.json": {
-      "sha256": "13187f06608fc02d98fbd1ce46c57c62f23b3df56063d349ebce26690354b003",
-      "size": 8806
+      "sha256": "fee446c5e7fc2f7fcc519b6412583548bcece4fa59725a8a8ecae5830d368977",
+      "size": 8808
     },
     "ffmpeg-rubberband.json": {
       "sha256": "c518b750727836eea8a111cdff36349a3e7694543f187293d10f7a3f53c77578",
@@ -578,8 +578,8 @@
       "size": 996
     },
     "glib.json": {
-      "sha256": "61c5b0314f198b4d314f6fdb77c7ba6dcd0c3c4dbdf2bb689d5b837f764e550c",
-      "size": 2389
+      "sha256": "d237f806a8d0b2ac2d95c5915a232775f63373692cfa2359e7b1b1d1cbeff769",
+      "size": 2436
     },
     "gmp.json": {
       "sha256": "4a84c1ff15ed9d07ee025b0f80c35cffc2d5af837d65c7f043e363f46b75a11f",
@@ -590,20 +590,20 @@
       "size": 712
     },
     "gstreamer.json": {
-      "sha256": "6c25d4f995b167fe6126fe9ade25cc6109e69dc5108f2b738d0d9ec934c7f8d9",
-      "size": 7841
+      "sha256": "9816c92e3bef70231b345d8b1d8a972db6909bef8d74a321a7b5ccdb73ea32ef",
+      "size": 7855
     },
     "gtm-http-fetcher.json": {
       "sha256": "5fccf68bf8de4a600a2cdd45ffb766dec0b9479a35fb3da7a851fc89bf97e318",
       "size": 945
     },
     "h264.json": {
-      "sha256": "fe5cf9fed3eeb59a07b7409dfd01994a6c668401f9f755cbaa893455dcbc545c",
-      "size": 1245
+      "sha256": "5d2be77f7d94f48cfd33d99429fc78b0af23b9f94e18af56bf9607bb1faa2cf5",
+      "size": 1303
     },
     "h265.json": {
-      "sha256": "1b4f577153968a50b1411f482911d55906180fa96a8e911efedb4b6059fdfcbf",
-      "size": 1044
+      "sha256": "4527bba14f6f40e263b96463121eef0625e021e7de202a4292893b2babe227f5",
+      "size": 1103
     },
     "hermes.json": {
       "sha256": "b57a99a392a4cd4c799b76a545d1f995e0f5d6053c1c72380cf69d65cd0f6c02",
@@ -702,28 +702,24 @@
       "size": 701
     },
     "onnx-architectures.json": {
-      "sha256": "3125f73a2c6387fc4a0a16f5e406fdd0c61f7e2670cd85654b548b119a1bc8f3",
-      "size": 2239
+      "sha256": "ab96718ccfa85b844471083f50ca1297209dd7daba7297f1e620d67a49cee088",
+      "size": 2274
     },
     "onnx-pytorch.json": {
-      "sha256": "e7762c7a4f69a3008358b7f285c3a92abfb81ed12b0113edbfa1a153de95eb18",
-      "size": 1585
-    },
-    "onnx-security.json": {
-      "sha256": "11157417fa3d3fbcc63f566cf3b89ef3da5d2b5189387cf682955fd2a175dcc8",
-      "size": 1700
+      "sha256": "77071a7587bd7d26cffee5fd25c074d06760d1bbfbc0825c27499088aed03b26",
+      "size": 1620
     },
     "onnx-tensorflow.json": {
-      "sha256": "fd4c7c6bce16860b6d966c0a03da68e3d4dc485a6fe2a27bfe4d42bf916ba4eb",
-      "size": 1648
+      "sha256": "2408dce958e554b4bd5f6fec93c14b1a2a40c8fa93c52af72991758dcdbcc1a5",
+      "size": 1683
     },
     "opencv.json": {
       "sha256": "4387e3a6a7ffba8706fc376efd20fa3c2766e631a34d679e9d433fa3de40af46",
       "size": 1057
     },
     "openssl.json": {
-      "sha256": "e799ff3aa11a6114ea3d6f6babbc2631cf67f3f12d8d999232e01789cbddaaa5",
-      "size": 29086
+      "sha256": "4c39c308d5dcc1f856f4f866fdb561cd8bf6a125931a8d365e822748ff21999d",
+      "size": 29121
     },
     "opus.json": {
       "sha256": "5d51064bc4705832e806213c429c7b62e8dfd06a02f48ad88f98481cfa5ab150",
@@ -741,14 +737,6 @@
       "sha256": "0811a9553959f9678470ad39e2613f14d43d1525f34fb0c494b5e163fbac8cfb",
       "size": 575
     },
-    "pickle-malformed.json": {
-      "sha256": "0ddb1f82721c5e680c2b314205231c073e0936b7adeb7c487070895895e4e82c",
-      "size": 875
-    },
-    "pickle-malicious.json": {
-      "sha256": "5cf92de85d076ade0f3ae83622d9288730f09d2195b68d088d6edb3c9ffc80e6",
-      "size": 2860
-    },
     "pkg-errors.json": {
       "sha256": "7c092934526ca472e72caf7529376726815116372d212011c3ea2d48fbe81ece",
       "size": 583
@@ -762,40 +750,36 @@
       "size": 4746
     },
     "pytorch-architectures.json": {
-      "sha256": "b74e50f4f8b902c36559ec62c40f50210a609fdc0be94f4f343e959f62a1e5de",
-      "size": 1998
+      "sha256": "a0be753de11dff73fac61242cd968aba890b74f1967bbb9d791c444665f2849b",
+      "size": 2033
     },
     "pytorch-native.json": {
-      "sha256": "6be51ac85f0fad8471aa0e13198fb01e5ca7a278b64cd6f5c07a41063bed80e1",
-      "size": 2175
+      "sha256": "79c49e17a145696c951b2e67836859d1ffde7a0912bba32a2abe86fb6d4d250b",
+      "size": 2210
     },
     "pytorch.json": {
-      "sha256": "ae20fa71c69f298709feffde0973629121c71242a6831a7521c3adf6e47d4037",
-      "size": 3240
+      "sha256": "a2626c8b603206119105c7b4ab63107c56dae558fd20feb845824488bbbf11e1",
+      "size": 3275
     },
     "qt5.json": {
       "sha256": "ec02c5f8c4b388a2f2ba48be710986b4a0f64a3407ecb580c7ca085a40a6dd79",
       "size": 3505
     },
     "safetensors-format.json": {
-      "sha256": "0aeddcd5f7d508d96ec2a16dc96f18f3e6a1a867dbec0758acfeff2f62592f58",
-      "size": 1052
+      "sha256": "e4057028013b17d856b112d1dd95e24228bcf7d91be07a55e3e83209d3d0441c",
+      "size": 1087
     },
     "safetensors-pytorch.json": {
-      "sha256": "c3fc4d86e2913a02eab76d74c3360d2ab47329ce7d1ba47fa60357499c10c46a",
-      "size": 1709
-    },
-    "safetensors-security.json": {
-      "sha256": "3374223406a4f679a965ed513b208122b7ac26d000af8cd448f7a483acdc9342",
-      "size": 1850
+      "sha256": "bb1a5600b7f47029a31b01b942c0ea4e2858a0224ac53c508fa06e4d40c241d4",
+      "size": 1744
     },
     "safetensors-transformers.json": {
-      "sha256": "4871027ded64d690ca61cd5f545c86741f2a661a4a41dce24fadad62ecff4fa8",
-      "size": 3063
+      "sha256": "e0754e91af3a5d1f9219b861812d86054cfbad21032e9189163e8454c12c0e0e",
+      "size": 3098
     },
     "sklearn.json": {
-      "sha256": "17fa04f9290f5ca34be9bbcf047de84e10321266ea78de76bbd1dfbfee052d43",
-      "size": 3364
+      "sha256": "1173b1cb05524461e68067c2b8ddc2d9fb91afa1687108595c73762e76138974",
+      "size": 3399
     },
     "sqlite.json": {
       "sha256": "a84eef146f8c000d39ca5cf91cb9e13b12ab324ee2ad728a0a57ef4a2c4abab5",
@@ -810,8 +794,8 @@
       "size": 1327
     },
     "tensorflow-native.json": {
-      "sha256": "91001cf2ca74280a5c433195fffe05aed70a556730fb4ab958e30324d95acbc0",
-      "size": 2115
+      "sha256": "c20ec4aeec1d1c8fc756e261aab7bfacaa03296631e6d7ec48e285ca8b074ad1",
+      "size": 2149
     },
     "touchimageview.json": {
       "sha256": "0dfad74ea2c598b3bb11391ecce38e4ecadd8b597a831334aec7cb631815f3eb",
@@ -830,8 +814,8 @@
       "size": 10560
     },
     "xgboost.json": {
-      "sha256": "d8a0436cdc8dbba8322161c455013e8db48c945189711a55b50e30a0af72e746",
-      "size": 1319
+      "sha256": "5fb22308262e5cbf5b04b43a7d451d9670b511c2c43e7db0d1f8ee37c8f61fd0",
+      "size": 1353
     },
     "xiph-vorbis.json": {
       "sha256": "ee0bb1abbf8fc3ec67beb21347b727482450a62b66633dc88ebb680987a1f948",
@@ -3199,19 +3183,6 @@
       "version": "*"
     },
     {
-      "component": "ONNX-Security-Risks",
-      "description": "Security risk patterns in ONNX models",
-      "filename": "onnx-security.json",
-      "languages": [
-        "python"
-      ],
-      "platforms": [
-        "all"
-      ],
-      "signature_count": 16,
-      "version": "1.0.0"
-    },
-    {
       "component": "TensorFlow-ONNX",
       "description": "TensorFlow models exported to ONNX format",
       "filename": "onnx-tensorflow.json",
@@ -3309,32 +3280,6 @@
       ],
       "signature_count": 0,
       "source": "migrated_from_sqlite_db",
-      "version": "1.0.0"
-    },
-    {
-      "component": "Malformed-Pickle-File",
-      "description": "Detected malformed or corrupted pickle file structure",
-      "filename": "pickle-malformed.json",
-      "languages": [
-        "python"
-      ],
-      "platforms": [
-        "all"
-      ],
-      "signature_count": 6,
-      "version": "1.0.0"
-    },
-    {
-      "component": "Pickle-Malicious-Patterns",
-      "description": "Signatures for detecting malicious patterns in pickle files",
-      "filename": "pickle-malicious.json",
-      "languages": [
-        "python"
-      ],
-      "platforms": [
-        "all"
-      ],
-      "signature_count": 29,
       "version": "1.0.0"
     },
     {
@@ -3457,19 +3402,6 @@
       ],
       "signature_count": 19,
       "version": "2.0"
-    },
-    {
-      "component": "SafeTensors-Security",
-      "description": "Security patterns for SafeTensors format validation and tampering detection",
-      "filename": "safetensors-security.json",
-      "languages": [
-        "python"
-      ],
-      "platforms": [
-        "all"
-      ],
-      "signature_count": 20,
-      "version": "1.0"
     },
     {
       "component": "SafeTensors-Transformers",
@@ -3665,7 +3597,7 @@
   ],
   "signature_format_version": "1.0",
   "source": "Generated from packaged JSON signatures",
-  "total_signature_files": 205,
-  "total_signatures": 1936,
+  "total_signature_files": 201,
+  "total_signatures": 1865,
   "version": "1.3.1"
 }

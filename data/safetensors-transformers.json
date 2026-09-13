@@ -13,8 +13,10 @@
     "license": "Apache-2.0",
     "publisher": "Hugging Face"
   },
-  "confidence_threshold": 0.3,
-  "patterns": [
+  "signature_metadata": {
+    "confidence_threshold": 0.3
+  },
+  "signatures": [
     {
       "pattern": "embeddings.word_embeddings.weight",
       "confidence": 0.9

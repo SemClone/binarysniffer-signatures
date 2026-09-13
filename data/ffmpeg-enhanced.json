@@ -16,7 +16,8 @@
     "source": "Multi-version analysis (ffmpeg binary, libffmpeg.so, source code)",
     "enhanced": true,
     "cleaned": true,
-    "cleaning_version": "4.0"
+    "cleaning_version": "4.0",
+    "tlsh_hash": "T1F7C37F4269B4FD6F72DE6C4FABB2EFF262675422BF41E8F0DA4CC28F0A06C251156415"
   },
   "signatures": [
     {
@@ -374,6 +375,5 @@
       "type": "string",
       "confidence": 0.8
     }
-  ],
-  "tlsh_hash": "T1F7C37F4269B4FD6F72DE6C4FABB2EFF262675422BF41E8F0DA4CC28F0A06C251156415"
+  ]
 }

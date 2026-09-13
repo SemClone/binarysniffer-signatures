@@ -3,14 +3,21 @@
     "name": "Dolby Audio/Video",
     "version": "unknown",
     "category": "codec",
-    "platforms": ["all"],
-    "languages": ["c", "c++"],
+    "platforms": [
+      "all"
+    ],
+    "languages": [
+      "c",
+      "c++"
+    ],
     "description": "Dolby Digital (AC3), Digital Plus (EAC3), and Dolby Vision codecs",
     "license": "Proprietary",
     "publisher": "Dolby Laboratories"
   },
-  "confidence_threshold": 0.7,
-  "patterns": [
+  "signature_metadata": {
+    "confidence_threshold": 0.7
+  },
+  "signatures": [
     {
       "pattern": "audio/eac3",
       "confidence": 0.95
@@ -29,19 +36,19 @@
     },
     {
       "pattern": "DolbyDigital",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "DolbyDigitalPlus",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "DolbyVision",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "DolbyVisionProfile",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "DolbyVisionProfileDvavSe",
@@ -69,11 +76,11 @@
     },
     {
       "pattern": "ac3_decode",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "eac3_decode",
-      "confidence": 0.90
+      "confidence": 0.9
     },
     {
       "pattern": "ac3parse",
